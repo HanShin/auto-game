@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "status": "guide-derived-not-screen-verified",
+  "coordinateSystem": "relative-board-directions",
+  "main-1-9": {
+    "waves": [
+      [{"ball":"bottom","moves":["up","right","down"]},{"ball":"top","moves":["left","down"]}],
+      [{"ball":"bottom","moves":["up"]},{"ball":"top","moves":["right","down","right"]}],
+      [{"ball":"top","moves":["down","left"]},{"ball":"left","moves":["up","right","down"]},{"ball":"right","moves":["right","up","left"]}],
+      [{"ball":"right","moves":["left"]},{"ball":"bottom","moves":["right","up","right"]},{"ball":"top","moves":["right","right","down","left"]}]
+    ]
+  },
+  "main-5-9": {
+    "waves": [
+      {"stamina":12,"moves":["bottom-left-edge","below-icicle","goal"]},
+      {"stamina":43,"moves":["L4","U4 R1","D3 R1","U2 R1 U1 R1","D3","R1","D1 R2","U1 L1 U1 L1","U2 R1","D1 R1","U1 R1","D3","goal"]},
+      {"stamina":47,"moves":["D1 R1","U1 R1","D6 L2","L3","U1 R1 U1 R1","D1 R2 U1","U1 L4","U1 R1 U1 R1","D1 R2 teleport","U6 R2","R1","goal"]}
+    ]
+  },
+  "main-4-8": {
+    "actionsKo":["공 위로","용암 골렘 파괴로 옆 성터 골렘 오른2","성터 골렘 위로","같은 골렘 다시 밀어 재행동","성터 골렘 왼쪽","출구 오른위 검은칸 돌 설치","용암 골렘을 오른3칸에서 파괴해 성터 골렘 오른1","성터 골렘 위로","사용한 돌 파괴","왼위 성터 골렘 오른쪽으로 출구 위 막기","왼쪽 돌 파괴","공 오른쪽","왼쪽 돌 설치","공 위로"]
+  },
+  "main-6-7": {
+    "actionsKo":["오른쪽 용암 골렘 파괴해 공 오른2","위 마법진에 석상 설치","성터 골렘 왼쪽","왼쪽 용암 골렘 파괴해 성터 골렘 오른2","성터 골렘 아래","성터 골렘 오른쪽","오른쪽 용암 골렘을 아래에서 파괴해 성터 골렘 왼2","공 위","돌골렘 파괴","성터 골렘 왼쪽","성터 골렘 위","위 용암 골렘을 대각선 아래에서 파괴해 성터 골렘 아래2","공 왼쪽","공 위"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "verifiedOn": "2026-10-09",
+  "platform": "win32",
+  "inputMode": "computer-use-manual",
+  "userScope": "이번 미션까지만 완료하고 중지",
+  "stopped": true,
+  "lastCompleted": {
+    "chapter": "바다 섬의 장Ⅰ",
+    "number": "02",
+    "titleKo": "폭풍의 우연",
+    "turn": 3,
+    "achievements": { "completed": 2, "total": 2 },
+    "treasures": { "completed": 1, "total": 1 },
+    "firstRewardReceived": true,
+    "playbook": "docs/langrisser-playbooks/sea1-storm-encounter-grid-2026-10-09.md",
+    "verification": "data/langrisser/verification/pc-2026-10-08.md",
+    "screenshot": "data/langrisser/verification/pc-2026-10-09-storm-complete.jpg"
+  },
+  "verifiedChapters": [
+    { "titleKo": "평원Ⅰ", "percent": 100, "treasures": "6/6", "achievements": "21/21" },
+    { "titleKo": "평원Ⅱ", "percent": 100, "treasures": "6/6", "achievements": "23/23" },
+    { "titleKo": "평원Ⅲ", "percent": 100, "treasures": "7/7", "achievements": "24/24" }
+  ],
+  "lastObservedResources": { "gold": 20832138, "crystals": 1102, "stamina": "162/170" },
+  "sessionTotals": { "sorties": 17, "restarts": 6, "crystalsSpent": 0 },
+  "resumeRequires": "사용자 새 진행 요청, 해당 PC의 Computer Use 입력 검증, 현재 게임 상세 카운터 재확인"
+}

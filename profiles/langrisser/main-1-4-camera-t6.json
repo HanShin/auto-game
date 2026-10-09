@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "main-1-4-camera-t6",
+  "stageId": "main-1-4",
+  "sourceUrl": "https://www.taptap.cn/moment/760982472031734954",
+  "guideRouteId": "main-1-4-camera-t6-reviewed",
+  "executionScope": "camera-only",
+  "outcome": "camera-only",
+  "steps": [
+    {
+      "id": "pan-down-to-source-target",
+      "sourceActionId": "camera-197",
+      "before": {
+        "all": [
+          "범위 내 부대",
+          "취소"
+        ]
+      },
+      "action": {
+        "type": "drag",
+        "point": [
+          0.76,
+          0.8
+        ],
+        "to": [
+          0.76,
+          0.34
+        ],
+        "durationMs": 1200
+      },
+      "after": {
+        "all": [
+          "범위 내 부대",
+          "취소"
+        ]
+      },
+      "timeoutMs": 10000
+    }
+  ]
+}

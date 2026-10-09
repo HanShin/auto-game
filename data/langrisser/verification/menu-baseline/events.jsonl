@@ -1,0 +1,4 @@
+{"at":"2026-09-27T06:13:02.533Z","type":"before","step":"open-achievements","frame":".runtime/langrisser/verify-061B5C7D-E3BF-43F3-B320-45F37351AFC0/frame-1790489581894-1.png"}
+{"at":"2026-09-27T06:13:03.364Z","type":"verified","step":"open-achievements","frame":".runtime/langrisser/verify-061B5C7D-E3BF-43F3-B320-45F37351AFC0/frame-1790489583037-2.png"}
+{"at":"2026-09-27T06:13:03.677Z","type":"before","step":"close-achievements","frame":".runtime/langrisser/verify-061B5C7D-E3BF-43F3-B320-45F37351AFC0/frame-1790489583366-3.png"}
+{"at":"2026-09-27T06:13:04.558Z","type":"verified","step":"close-achievements","frame":".runtime/langrisser/verify-061B5C7D-E3BF-43F3-B320-45F37351AFC0/frame-1790489584174-4.png"}

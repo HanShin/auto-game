@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "main-1-4-objective-audit",
+  "stageId": "main-1-4",
+  "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+  "objectiveMode": "all-objectives",
+  "auditAfter": true,
+  "outcome": "audit-only",
+  "steps": [
+    {
+      "id": "verify-stage-details",
+      "before": {
+        "all": [
+          "섬의 손님",
+          "승리 조건",
+          "첫 클리어 보상",
+          "소모"
+        ],
+        "none": [
+          {
+            "text": "업적",
+            "exact": true
+          }
+        ]
+      },
+      "action": {
+        "type": "observe"
+      },
+      "after": {
+        "all": [
+          "섬의 손님",
+          "승리 조건",
+          "첫 클리어 보상",
+          "소모"
+        ],
+        "none": [
+          {
+            "text": "업적",
+            "exact": true
+          }
+        ]
+      }
+    }
+  ],
+  "executionScope": "observe"
+}

@@ -1,0 +1,135 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-1-4-details-local-ui",
+  "stageId": "main-1-4",
+  "title": "섬의 손님 업적 메뉴 왕복",
+  "summaryKo": "이전에 실제 네이티브 앱에서 통과한 메뉴 2단계의 입력을 새 기록 실행 형식으로 옮겼다. 새 실행기의 실전 재검증이나 전투 완주를 뜻하지 않는다. 스테이지 상세 화면에서만 시작한다.",
+  "objectives": {
+    "mode": "menu-verification"
+  },
+  "sources": [
+    {
+      "id": "local-ui",
+      "kind": "local-observation",
+      "label": "기존 네이티브 메뉴 왕복 완료 기록",
+      "evidencePath": "data/langrisser/verification/menu-baseline/checkpoint.json",
+      "sha256": "88a62d75b8cc23915a6e08339955e2b35596547c8dbb3c0a6ef8914f25e9fa29"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "open-achievements",
+      "actorKo": "메뉴",
+      "sourceId": "local-ui",
+      "section": "네이티브 기록의 open-achievements 단계",
+      "verified": true,
+      "actionKo": "섬의 손님 상세 화면에서 업적 버튼 클릭",
+      "expectedKo": "1턴 내에 적군 2명 처치·모든 적 처치 표시"
+    },
+    {
+      "id": "close-achievements",
+      "actorKo": "메뉴",
+      "sourceId": "local-ui",
+      "section": "네이티브 기록의 close-achievements 단계",
+      "verified": true,
+      "actionKo": "업적 창 닫기",
+      "expectedKo": "섬의 손님 상세 화면 복귀"
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "게임이 상세 화면이 아님",
+      "thenKo": "12초 동안 화면을 재확인한 뒤에도 다르면 요청. 전투를 임의로 종료하지 않음."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": true,
+    "screenMappingVerified": true,
+    "recipeSha256": "a2a9dba8f575c2e6730cdbfb4f6555e5af85543b3b00c8fe7da6652fa7878282"
+  },
+  "execution": {
+    "recipe": {
+      "version": 2,
+      "id": "main-1-4-details-recorded",
+      "stageId": "main-1-4",
+      "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+      "outcome": "menu-input-verification-only",
+      "steps": [
+        {
+          "id": "open-achievements",
+          "before": {
+            "all": [
+              "섬의 손님",
+              "승리 조건",
+              "첫 클리어 보상"
+            ],
+            "none": [
+              {
+                "text": "업적",
+                "exact": true
+              }
+            ]
+          },
+          "action": {
+            "type": "click",
+            "point": [
+              0.442,
+              0.715
+            ]
+          },
+          "after": {
+            "all": [
+              {
+                "text": "업적",
+                "exact": true
+              },
+              "1턴 내에 적군 2명 처치",
+              "모든 적 처치"
+            ]
+          },
+          "sourceActionId": "open-achievements",
+          "actorKo": "메뉴"
+        },
+        {
+          "id": "close-achievements",
+          "before": {
+            "all": [
+              {
+                "text": "업적",
+                "exact": true
+              },
+              "1턴 내에 적군 2명 처치",
+              "모든 적 처치"
+            ]
+          },
+          "action": {
+            "type": "click",
+            "point": [
+              0.842,
+              0.732
+            ]
+          },
+          "after": {
+            "all": [
+              "섬의 손님",
+              "승리 조건",
+              "첫 클리어 보상"
+            ],
+            "none": [
+              {
+                "text": "업적",
+                "exact": true
+              }
+            ]
+          },
+          "sourceActionId": "close-achievements",
+          "actorKo": "메뉴"
+        }
+      ],
+      "executionScope": "menu",
+      "guideRouteId": "main-1-4-details-local-ui"
+    }
+  },
+  "gaps": []
+}

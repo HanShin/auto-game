@@ -1,0 +1,1099 @@
+{
+  "version": 1,
+  "observedDate": "2026-09-27",
+  "author": "梦战百科",
+  "collectionUrl": "https://space.bilibili.com/2052739427/lists/1360425?type=season",
+  "method": "visible-browser-DOM-six-pages",
+  "advertisedVideos": 155,
+  "indexedVideos": 155,
+  "catalogVerifiedAgainstKoreanGame": false,
+  "labels": "검색용 축약 제목. 제목의 전체 업적 주장은 결과 검증을 뜻하지 않음. 대체 공략과 업적 일부 공략도 포함.",
+  "videos": [
+    {
+      "videoId": "BV1zM41137LT",
+      "labelZh": "黎明序曲-失落的守门人",
+      "url": "https://www.bilibili.com/video/BV1zM41137LT/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1KM4y1871V",
+      "labelZh": "黎明序曲-异动的芜土-雷丁打地鼠",
+      "url": "https://www.bilibili.com/video/BV1KM4y1871V/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1NL411h7WC",
+      "labelZh": "黎明序曲-幻伶归旅-上路",
+      "url": "https://www.bilibili.com/video/BV1NL411h7WC/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1aa4y1g74U",
+      "labelZh": "黎明序曲-幻伶归旅-下路",
+      "url": "https://www.bilibili.com/video/BV1aa4y1g74U/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1K14y1Q7nH",
+      "labelZh": "2-终时迫近",
+      "url": "https://www.bilibili.com/video/BV1K14y1Q7nH/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1uo4y1T7VG",
+      "labelZh": "2-希望荧惑",
+      "url": "https://www.bilibili.com/video/BV1uo4y1T7VG/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1iW4y1X7Eg",
+      "labelZh": "2-绝境盘桓 全成就宝箱",
+      "url": "https://www.bilibili.com/video/BV1iW4y1X7Eg/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV18j411Q7sf",
+      "labelZh": "2-引航信标 全清成就",
+      "url": "https://www.bilibili.com/video/BV18j411Q7sf/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1JM4y1Y7ec",
+      "labelZh": "2-引航信标 速通成就",
+      "url": "https://www.bilibili.com/video/BV1JM4y1Y7ec/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1S8411Z7La",
+      "labelZh": "2-异维之兆 全成就宝箱",
+      "url": "https://www.bilibili.com/video/BV1S8411Z7La/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1mz4y1v7F3",
+      "labelZh": "2-转击之法",
+      "url": "https://www.bilibili.com/video/BV1mz4y1v7F3/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Y2421P7TS",
+      "labelZh": "6-01 鸢尾余烬",
+      "url": "https://www.bilibili.com/video/BV1Y2421P7TS/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Rp42127Zw",
+      "labelZh": "6-01解密 球球大作战",
+      "url": "https://www.bilibili.com/video/BV1Rp42127Zw/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV14H4y1W71Y",
+      "labelZh": "6-02 鲜血之王",
+      "url": "https://www.bilibili.com/video/BV14H4y1W71Y/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Mr421h7yM",
+      "labelZh": "6-02解密 旧物回收",
+      "url": "https://www.bilibili.com/video/BV1Mr421h7yM/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Xj421o7Xd",
+      "labelZh": "6-03 勇战之魂",
+      "url": "https://www.bilibili.com/video/BV1Xj421o7Xd/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1rC411875X",
+      "labelZh": "6-03解密 寻宝之旅",
+      "url": "https://www.bilibili.com/video/BV1rC411875X/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1gD421L7HY",
+      "labelZh": "6-04 凋零之梦",
+      "url": "https://www.bilibili.com/video/BV1gD421L7HY/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Vf421Z7Tx",
+      "labelZh": "6-05 堕乱之殇",
+      "url": "https://www.bilibili.com/video/BV1Vf421Z7Tx/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Jx421k7BM",
+      "labelZh": "6-06 黑暗动乱",
+      "url": "https://www.bilibili.com/video/BV1Jx421k7BM/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1cm411k737",
+      "labelZh": "6-06解密 人在塔在",
+      "url": "https://www.bilibili.com/video/BV1cm411k737/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1am411k7Qt",
+      "labelZh": "6-07 破晓光辉",
+      "url": "https://www.bilibili.com/video/BV1am411k7Qt/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV111JjzsEYr",
+      "labelZh": "11 拂晓之忆01 新军初阵",
+      "url": "https://www.bilibili.com/video/BV111JjzsEYr/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1y2Jjz9E7K",
+      "labelZh": "11 拂晓之忆02 黑天马归来",
+      "url": "https://www.bilibili.com/video/BV1y2Jjz9E7K/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1UBJjzFEtG",
+      "labelZh": "11 拂晓之忆03 幽灵王子",
+      "url": "https://www.bilibili.com/video/BV1UBJjzFEtG/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1wMJjzDEoC",
+      "labelZh": "11 拂晓之忆04 血翼之下",
+      "url": "https://www.bilibili.com/video/BV1wMJjzDEoC/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1w3JjzUENF",
+      "labelZh": "11 拂晓之忆05 龙化者",
+      "url": "https://www.bilibili.com/video/BV1w3JjzUENF/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1TcJjzxEKd",
+      "labelZh": "11 拂晓之忆06 黑白天马圆舞曲",
+      "url": "https://www.bilibili.com/video/BV1TcJjzxEKd/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1dWJjzzEek",
+      "labelZh": "11 拂晓之忆07 拂晓之光",
+      "url": "https://www.bilibili.com/video/BV1dWJjzzEek/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV13DJLzAEYg",
+      "labelZh": "11 拂晓之忆01 挑战 吵闹大混战 霞的一波流打法",
+      "url": "https://www.bilibili.com/video/BV13DJLzAEYg/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV19YJEz3EjJ",
+      "labelZh": "11 拂晓之忆01 挑战 吵闹大混战 系统英雄打法",
+      "url": "https://www.bilibili.com/video/BV19YJEz3EjJ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1ufJ7zvEbX",
+      "labelZh": "11 拂晓之忆02 挑战 诅咒之地 系统英雄打法",
+      "url": "https://www.bilibili.com/video/BV1ufJ7zvEbX/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1McJEzPEmt",
+      "labelZh": "11 拂晓之忆02 挑战 诅咒之地 霞的一波流打法",
+      "url": "https://www.bilibili.com/video/BV1McJEzPEmt/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1HeJ7zQE7b",
+      "labelZh": "11 拂晓之忆03 解谜 独闯幽冥",
+      "url": "https://www.bilibili.com/video/BV1HeJ7zQE7b/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV13RJ7zMEsi",
+      "labelZh": "11 拂晓之忆06 解谜 狂轰滥炸",
+      "url": "https://www.bilibili.com/video/BV13RJ7zMEsi/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Tu411K77W",
+      "labelZh": "3-珀中少女",
+      "url": "https://www.bilibili.com/video/BV1Tu411K77W/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1W94y147VP",
+      "labelZh": "3-凝合之力",
+      "url": "https://www.bilibili.com/video/BV1W94y147VP/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV15p4y1N7HM",
+      "labelZh": "3-群岛来客",
+      "url": "https://www.bilibili.com/video/BV15p4y1N7HM/",
+      "reviewStatus": "partial-source-review",
+      "stageId": "main-1-4",
+      "playableMirror": "https://www.taptap.cn/moment/760982472031734954"
+    },
+    {
+      "videoId": "BV1Ju4y1C7bL",
+      "labelZh": "3-魔物必须死",
+      "url": "https://www.bilibili.com/video/BV1Ju4y1C7bL/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV17N411q7vU",
+      "labelZh": "3-未卜的逆旅",
+      "url": "https://www.bilibili.com/video/BV17N411q7vU/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1ip4y1N7xQ",
+      "labelZh": "3-守门人的考验",
+      "url": "https://www.bilibili.com/video/BV1ip4y1N7xQ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1CP411Y74c",
+      "labelZh": "3-微茫讯息",
+      "url": "https://www.bilibili.com/video/BV1CP411Y74c/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1or4y1X754",
+      "labelZh": "3-黯影信条",
+      "url": "https://www.bilibili.com/video/BV1or4y1X754/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1zN411q7Ab",
+      "labelZh": "3-千年王国",
+      "url": "https://www.bilibili.com/video/BV1zN411q7Ab/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Ej411m7XQ",
+      "labelZh": "3-史莱姆的救赎",
+      "url": "https://www.bilibili.com/video/BV1Ej411m7XQ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1dz4y1c7Wr",
+      "labelZh": "4-01 沃野之谜",
+      "url": "https://www.bilibili.com/video/BV1dz4y1c7Wr/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Uu4y1w7K9",
+      "labelZh": "4-02 被遗忘之骸",
+      "url": "https://www.bilibili.com/video/BV1Uu4y1w7K9/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1uw411n75c",
+      "labelZh": "4-02 解谜 夺宝迷局",
+      "url": "https://www.bilibili.com/video/BV1uw411n75c/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Cj41177xu",
+      "labelZh": "4-03 舞于柴薪之上",
+      "url": "https://www.bilibili.com/video/BV1Cj41177xu/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Gw411n7tw",
+      "labelZh": "4-03 解谜 爆裂时刻",
+      "url": "https://www.bilibili.com/video/BV1Gw411n7tw/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Jj41177kb",
+      "labelZh": "4-04 踏火寻踪",
+      "url": "https://www.bilibili.com/video/BV1Jj41177kb/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1su4y1w7a4",
+      "labelZh": "4-05 燃烧的枷锁",
+      "url": "https://www.bilibili.com/video/BV1su4y1w7a4/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1v94y1J7s1",
+      "labelZh": "4-05 解谜 史莱姆的进军",
+      "url": "https://www.bilibili.com/video/BV1v94y1J7s1/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV16u4y1w73q",
+      "labelZh": "4-06 漆黑的对峙",
+      "url": "https://www.bilibili.com/video/BV16u4y1w73q/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Lw411n7Yy",
+      "labelZh": "4-06 解谜 哥布林的救赎",
+      "url": "https://www.bilibili.com/video/BV1Lw411n7Yy/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV11r421W7R1",
+      "labelZh": "5-01 重逢与诀别",
+      "url": "https://www.bilibili.com/video/BV11r421W7R1/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1WA4m1376Q",
+      "labelZh": "5-02 理由",
+      "url": "https://www.bilibili.com/video/BV1WA4m1376Q/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1gm411Q73N",
+      "labelZh": "5-02解谜 爆破！跑路！",
+      "url": "https://www.bilibili.com/video/BV1gm411Q73N/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1mF4m1774q",
+      "labelZh": "5-03 王都交锋",
+      "url": "https://www.bilibili.com/video/BV1mF4m1774q/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1iH4y1E7h3",
+      "labelZh": "5-03解谜 进化之路",
+      "url": "https://www.bilibili.com/video/BV1iH4y1E7h3/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Kj421S7hV",
+      "labelZh": "5-04 荒原困境",
+      "url": "https://www.bilibili.com/video/BV1Kj421S7hV/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1oz421d7Zy",
+      "labelZh": "5-05 炉火",
+      "url": "https://www.bilibili.com/video/BV1oz421d7Zy/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1FF4m1j76g",
+      "labelZh": "5-05解谜 王牌演武",
+      "url": "https://www.bilibili.com/video/BV1FF4m1j76g/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1cF4m1E73b",
+      "labelZh": "5-06 龙眠之谜",
+      "url": "https://www.bilibili.com/video/BV1cF4m1E73b/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1nm411S71f",
+      "labelZh": "5-07 金色与决意",
+      "url": "https://www.bilibili.com/video/BV1nm411S71f/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1VC411x7zR",
+      "labelZh": "5-07解谜 史莱姆变变变",
+      "url": "https://www.bilibili.com/video/BV1VC411x7zR/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1rH4y1P7dP",
+      "labelZh": "7-01 审判的高塔",
+      "url": "https://www.bilibili.com/video/BV1rH4y1P7dP/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1pw4m1U7UK",
+      "labelZh": "7-02 雷雨邂逅",
+      "url": "https://www.bilibili.com/video/BV1pw4m1U7UK/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1tm411U7LH",
+      "labelZh": "7-02解密 盛宴决斗",
+      "url": "https://www.bilibili.com/video/BV1tm411U7LH/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Wq421F71G",
+      "labelZh": "7-03 起舞的元素",
+      "url": "https://www.bilibili.com/video/BV1Wq421F71G/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV14E421K72B",
+      "labelZh": "7-03解密 球的旅途",
+      "url": "https://www.bilibili.com/video/BV14E421K72B/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Zp421D71G",
+      "labelZh": "7-04 错乱",
+      "url": "https://www.bilibili.com/video/BV1Zp421D71G/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1qx4y187fK",
+      "labelZh": "7-05 夜之少女",
+      "url": "https://www.bilibili.com/video/BV1qx4y187fK/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1T1421d7Wu",
+      "labelZh": "7-05解密 黄金三角",
+      "url": "https://www.bilibili.com/video/BV1T1421d7Wu/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1mz421r7Ng",
+      "labelZh": "7-06 重临的光芒",
+      "url": "https://www.bilibili.com/video/BV1mz421r7Ng/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Gw4m1U7DD",
+      "labelZh": "7-06解密 光暗交织",
+      "url": "https://www.bilibili.com/video/BV1Gw4m1U7DD/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Ui421h7FV",
+      "labelZh": "8-02 破碎的浪潮",
+      "url": "https://www.bilibili.com/video/BV1Ui421h7FV/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1tM4m1179R",
+      "labelZh": "8-03 起源湖畔",
+      "url": "https://www.bilibili.com/video/BV1tM4m1179R/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV184421Z7Eq",
+      "labelZh": "8-03 解谜 烈火直冲",
+      "url": "https://www.bilibili.com/video/BV184421Z7Eq/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1eE4m1R7bX",
+      "labelZh": "8-04 暴风起于海上",
+      "url": "https://www.bilibili.com/video/BV1eE4m1R7bX/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV13W42197uZ",
+      "labelZh": "8-05 怒火 系统英雄",
+      "url": "https://www.bilibili.com/video/BV13W42197uZ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV194421Z7ka",
+      "labelZh": "8-05 怒火 黑科技速杀",
+      "url": "https://www.bilibili.com/video/BV194421Z7ka/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Py411q7Uj",
+      "labelZh": "8-05 解谜 单方向的石头",
+      "url": "https://www.bilibili.com/video/BV1Py411q7Uj/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1wE4m1d798",
+      "labelZh": "8-06 雷电与决心 系统英雄",
+      "url": "https://www.bilibili.com/video/BV1wE4m1d798/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1ui421a7wh",
+      "labelZh": "8-06 雷电与决心 黑科技速杀",
+      "url": "https://www.bilibili.com/video/BV1ui421a7wh/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1BM4m117SB",
+      "labelZh": "8-06 解谜 跑或吃",
+      "url": "https://www.bilibili.com/video/BV1BM4m117SB/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV17b42177Qd",
+      "labelZh": "8-07 新生哀鸣 系统英雄",
+      "url": "https://www.bilibili.com/video/BV17b42177Qd/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1eU411U72D",
+      "labelZh": "8-07 新生哀鸣 自选英雄速杀",
+      "url": "https://www.bilibili.com/video/BV1eU411U72D/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV19f421v7Kf",
+      "labelZh": "8-07 解谜 漫长的回合",
+      "url": "https://www.bilibili.com/video/BV19f421v7Kf/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1drBoYREHg",
+      "labelZh": "9-01 穿心利刃",
+      "url": "https://www.bilibili.com/video/BV1drBoYREHg/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1RyBoYXEFU",
+      "labelZh": "9-01 解谜 运球专家",
+      "url": "https://www.bilibili.com/video/BV1RyBoYXEFU/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1d6BoYxECj",
+      "labelZh": "9-02 未尽征程",
+      "url": "https://www.bilibili.com/video/BV1d6BoYxECj/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1FYBoYwEqg",
+      "labelZh": "9-03 清醒的梦魇",
+      "url": "https://www.bilibili.com/video/BV1FYBoYwEqg/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1RCBoYWE7b",
+      "labelZh": "9-03 解谜 剑士的困局",
+      "url": "https://www.bilibili.com/video/BV1RCBoYWE7b/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1fvBoYfEVK",
+      "labelZh": "9-04 道路",
+      "url": "https://www.bilibili.com/video/BV1fvBoYfEVK/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1T7BoYGEm8",
+      "labelZh": "9-04 解谜 冲出回廊",
+      "url": "https://www.bilibili.com/video/BV1T7BoYGEm8/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1gDBoYSEzd",
+      "labelZh": "9-05 制裁者威光",
+      "url": "https://www.bilibili.com/video/BV1gDBoYSEzd/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1GKBoYSEXy",
+      "labelZh": "9-05 挑战 数值大师",
+      "url": "https://www.bilibili.com/video/BV1GKBoYSEXy/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1S9BoY2EtH",
+      "labelZh": "9-06 破碎之舞",
+      "url": "https://www.bilibili.com/video/BV1S9BoY2EtH/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1n5fYYUEcu",
+      "labelZh": "10-01 缄默哀嚎",
+      "url": "https://www.bilibili.com/video/BV1n5fYYUEcu/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1qnfYYyEBg",
+      "labelZh": "10-01 解谜 超级变变变",
+      "url": "https://www.bilibili.com/video/BV1qnfYYyEBg/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1xNfYYREwJ",
+      "labelZh": "10-02 生命狂潮",
+      "url": "https://www.bilibili.com/video/BV1xNfYYREwJ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1jWfYYkEFu",
+      "labelZh": "10-03 巨人",
+      "url": "https://www.bilibili.com/video/BV1jWfYYkEFu/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1BJfYYLE38",
+      "labelZh": "10-03 解谜 超自然大扫除",
+      "url": "https://www.bilibili.com/video/BV1BJfYYLE38/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1qpfYYVEKA",
+      "labelZh": "10-04 攀登",
+      "url": "https://www.bilibili.com/video/BV1qpfYYVEKA/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV154fYY6E4R",
+      "labelZh": "10-05 水镜",
+      "url": "https://www.bilibili.com/video/BV154fYY6E4R/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1e1faYBEXr",
+      "labelZh": "10-05 解谜 兄贵与地下城",
+      "url": "https://www.bilibili.com/video/BV1e1faYBEXr/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1J7fYY2EuU",
+      "labelZh": "10-06 星之女王",
+      "url": "https://www.bilibili.com/video/BV1J7fYY2EuU/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1xTbYzZETY",
+      "labelZh": "12 山林之章Ⅰ-01 归乡之风",
+      "url": "https://www.bilibili.com/video/BV1xTbYzZETY/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1mKbYzbETK",
+      "labelZh": "12 山林之章Ⅰ-01 解秘支线 破阵救援",
+      "url": "https://www.bilibili.com/video/BV1mKbYzbETK/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1mNbYzFE2j",
+      "labelZh": "12 山林之章Ⅰ-02 人类与亚人",
+      "url": "https://www.bilibili.com/video/BV1mNbYzFE2j/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1u1bvz6EwJ",
+      "labelZh": "12 山林之章Ⅰ-02 挑战支线 鱼塘大丰收 系统英雄",
+      "url": "https://www.bilibili.com/video/BV1u1bvz6EwJ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV18ubzzDEBe",
+      "labelZh": "12 山林之章Ⅰ-02 挑战支线 鱼塘大丰收 自己英雄",
+      "url": "https://www.bilibili.com/video/BV18ubzzDEBe/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1FPbiztEHh",
+      "labelZh": "12 山林之章Ⅰ-03 群山法则",
+      "url": "https://www.bilibili.com/video/BV1FPbiztEHh/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1K9bvzNEHn",
+      "labelZh": "12 山林之章Ⅰ-03 挑战支线 理智的重塑",
+      "url": "https://www.bilibili.com/video/BV1K9bvzNEHn/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1JWbvzRE5n",
+      "labelZh": "12 山林之章Ⅰ-04 王猎",
+      "url": "https://www.bilibili.com/video/BV1JWbvzRE5n/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1ExbvzWEQM",
+      "labelZh": "12 山林之章Ⅰ-05 营地内的攻防",
+      "url": "https://www.bilibili.com/video/BV1ExbvzWEQM/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1nnbvzoE2q",
+      "labelZh": "12 山林之章Ⅰ-06 天灾将至",
+      "url": "https://www.bilibili.com/video/BV1nnbvzoE2q/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Vibvz2EJp",
+      "labelZh": "12 山林之章Ⅰ-06 解秘支线 史莱姆冲锋！",
+      "url": "https://www.bilibili.com/video/BV1Vibvz2EJp/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1CK1sBsEm9",
+      "labelZh": "13 山林之章Ⅱ-01 战斗者们",
+      "url": "https://www.bilibili.com/video/BV1CK1sBsEm9/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1ty14BTE7g",
+      "labelZh": "13 山林之章Ⅱ-0-2 猎手与猎物",
+      "url": "https://www.bilibili.com/video/BV1ty14BTE7g/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1NU14BeEyH",
+      "labelZh": "13 山林之章Ⅱ-0-2解谜 星际大战",
+      "url": "https://www.bilibili.com/video/BV1NU14BeEyH/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1r514BoEYP",
+      "labelZh": "13 山林之章Ⅱ-0-3 王的宣告",
+      "url": "https://www.bilibili.com/video/BV1r514BoEYP/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1kV14BtE1V",
+      "labelZh": "13 山林之章Ⅱ-0-4 剑圣遗骸",
+      "url": "https://www.bilibili.com/video/BV1kV14BtE1V/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1rj14BxEGq",
+      "labelZh": "13 山林之章Ⅱ-0-4挑战 谷地试炼 速杀 全成就",
+      "url": "https://www.bilibili.com/video/BV1rj14BxEGq/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Ya14BLEmw",
+      "labelZh": "13 山林之章Ⅱ-0-4挑战 谷地试炼 系统英雄 少成就",
+      "url": "https://www.bilibili.com/video/BV1Ya14BLEmw/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Va14BLENb",
+      "labelZh": "13 山林之章Ⅱ-0-5 群山低语 战歌轻唱",
+      "url": "https://www.bilibili.com/video/BV1Va14BLENb/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1hi14BkEiL",
+      "labelZh": "13 山林之章Ⅱ-0-6 维兰迪斯",
+      "url": "https://www.bilibili.com/video/BV1hi14BkEiL/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1xuzdBwEaR",
+      "labelZh": "14 山林之章Ⅲ 01 风雨欲来",
+      "url": "https://www.bilibili.com/video/BV1xuzdBwEaR/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1bczdBqE1D",
+      "labelZh": "14 山林之章Ⅲ 02 豪山罡",
+      "url": "https://www.bilibili.com/video/BV1bczdBqE1D/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1bczdBqEXi",
+      "labelZh": "14 山林之章Ⅲ 03 短暂的和平",
+      "url": "https://www.bilibili.com/video/BV1bczdBqEXi/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1n7zdBdEhL",
+      "labelZh": "14 山林之章Ⅲ 03挑战 力量考核",
+      "url": "https://www.bilibili.com/video/BV1n7zdBdEhL/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV18FzdBMETE",
+      "labelZh": "14 山林之章Ⅲ 04 亚人与人类",
+      "url": "https://www.bilibili.com/video/BV18FzdBMETE/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV18FzdBMEyX",
+      "labelZh": "14 山林之章Ⅲ 05 秘密，真相，现实",
+      "url": "https://www.bilibili.com/video/BV18FzdBMEyX/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1HjzdB4E3d",
+      "labelZh": "14 山林之章Ⅲ05挑战 冰火交错 佣兵系统英雄打法",
+      "url": "https://www.bilibili.com/video/BV1HjzdB4E3d/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1BkzRBSE15",
+      "labelZh": "14 山林之章Ⅲ05挑战 冰火交错 自己英雄 全成就",
+      "url": "https://www.bilibili.com/video/BV1BkzRBSE15/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1tPzdBvEB9",
+      "labelZh": "14 山林之章Ⅲ 06 山脉之心",
+      "url": "https://www.bilibili.com/video/BV1tPzdBvEB9/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1bAzdBKE7y",
+      "labelZh": "14 山林之章Ⅲ 07 阿斯卡利亚之巅",
+      "url": "https://www.bilibili.com/video/BV1bAzdBKE7y/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1YPLX6LEfL",
+      "labelZh": "14 山林之章Ⅳ 01 灾祸将息",
+      "url": "https://www.bilibili.com/video/BV1YPLX6LEfL/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1XNLX6CEka",
+      "labelZh": "14 山林之章Ⅳ 02 熔火来客",
+      "url": "https://www.bilibili.com/video/BV1XNLX6CEka/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1odLQ6SEhu",
+      "labelZh": "14 山林之章Ⅳ 02解谜 布道者的物理学",
+      "url": "https://www.bilibili.com/video/BV1odLQ6SEhu/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV18oLR62Ep1",
+      "labelZh": "14 山林之章Ⅳ 03 苦难解离",
+      "url": "https://www.bilibili.com/video/BV18oLR62Ep1/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1MELR6CEWU",
+      "labelZh": "14 山林之章Ⅳ 04 前路回响",
+      "url": "https://www.bilibili.com/video/BV1MELR6CEWU/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV12HLR66EMM",
+      "labelZh": "14 山林之章Ⅳ 04解谜 步数余额不足",
+      "url": "https://www.bilibili.com/video/BV12HLR66EMM/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1QGLR62EVF",
+      "labelZh": "14 山林之章Ⅳ 05 刀锋相对",
+      "url": "https://www.bilibili.com/video/BV1QGLR62EVF/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1S5LR6LEUn",
+      "labelZh": "14 山林之章Ⅳ 06 归乡之风",
+      "url": "https://www.bilibili.com/video/BV1S5LR6LEUn/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1aegV6XE2L",
+      "labelZh": "高原之章Ⅰ01 战争序曲",
+      "url": "https://www.bilibili.com/video/BV1aegV6XE2L/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1HdgV6BEam",
+      "labelZh": "高原之章Ⅰ02 龙之阴影",
+      "url": "https://www.bilibili.com/video/BV1HdgV6BEam/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1pRgV6uEae",
+      "labelZh": "高原之章Ⅰ02支线 解迷·史莱姆的考验",
+      "url": "https://www.bilibili.com/video/BV1pRgV6uEae/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV122gV6yEKh",
+      "labelZh": "高原之章Ⅰ03 风起云涌",
+      "url": "https://www.bilibili.com/video/BV122gV6yEKh/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1sSgV6kEix",
+      "labelZh": "高原之章Ⅰ04 死寂之地",
+      "url": "https://www.bilibili.com/video/BV1sSgV6kEix/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV11UgV6VEUQ",
+      "labelZh": "高原之章Ⅰ05 灾难始景",
+      "url": "https://www.bilibili.com/video/BV11UgV6VEUQ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1xagj6QEyN",
+      "labelZh": "高原之章Ⅰ05支线 解迷·球球向前冲",
+      "url": "https://www.bilibili.com/video/BV1xagj6QEyN/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Nvgj6SEKt",
+      "labelZh": "高原之章Ⅰ06 变故",
+      "url": "https://www.bilibili.com/video/BV1Nvgj6SEKt/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    },
+    {
+      "videoId": "BV1Negj6nEXQ",
+      "labelZh": "高原之章Ⅰ07 魔剑之威",
+      "url": "https://www.bilibili.com/video/BV1Negj6nEXQ/",
+      "reviewStatus": "indexed-only",
+      "stageId": null
+    }
+  ]
+}

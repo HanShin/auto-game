@@ -1,0 +1,240 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-1-8-wikiru-turn-order",
+  "stageId": "main-1-8",
+  "title": "魔物死すべし · 마물에겐 죽음뿐",
+  "summaryKo": "일본 위키에 기록된 마동포 2단계 전투 순서를 미리 저장했다. 1단계 4턴, 증원 후 2단계 4턴이다. 공격 위치와 스킬 선택은 전장 화면 매핑 후에만 실행한다.",
+  "turnLimit": 15,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 2,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-8",
+      "sha256": "ab04191846e1cf1461e2efae530b41dc4189270b8dfcb0ad942b947100a25f2e"
+    },
+    {
+      "id": "wiki",
+      "label": "일본 위키 本編1-8 解法例",
+      "url": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-8"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "s1-t1-left-charge",
+      "turn": 1,
+      "phase": 1,
+      "actorKo": "왼쪽 포탑",
+      "actionKo": "에너지 충전",
+      "expectedKo": "왼쪽 포탑의 에너지 충전 동작"
+    },
+    {
+      "id": "s1-t1-right-single",
+      "turn": 1,
+      "phase": 1,
+      "actorKo": "오른쪽 포탑",
+      "actionKo": "단일 공격 기술 사용",
+      "expectedKo": "오른쪽 포탑의 단일 기술 공격"
+    },
+    {
+      "id": "s1-t2-left-aoe",
+      "turn": 2,
+      "phase": 1,
+      "actorKo": "왼쪽 포탑",
+      "actionKo": "범위 공격",
+      "expectedKo": "왼쪽 범위 공격"
+    },
+    {
+      "id": "s1-t2-right-aoe",
+      "turn": 2,
+      "phase": 1,
+      "actorKo": "오른쪽 포탑",
+      "actionKo": "범위 공격",
+      "expectedKo": "오른쪽 범위 공격"
+    },
+    {
+      "id": "s1-t3-harpies-basic",
+      "turn": 3,
+      "phase": 1,
+      "actorKo": "녹색 칸에 가까운 포탑",
+      "actionKo": "가까운 하피 두 마리를 각각 일반 공격으로 처치. 단일 기술 보존",
+      "expectedKo": "가까운 하피 두 마리 처치, 단일 기술 유지"
+    },
+    {
+      "id": "s1-t4-cleanup",
+      "turn": 4,
+      "phase": 1,
+      "actorKo": "남은 포탑",
+      "actionKo": "남은 적 두 마리를 단일 기술로 처치",
+      "expectedKo": "1단계 잔여 적 제거 및 2단계 시작"
+    },
+    {
+      "id": "s2-t4-edges-aoe",
+      "turn": 4,
+      "phase": 2,
+      "actorKo": "왼쪽 끝·오른쪽 끝 포탑",
+      "actionKo": "각각 범위 공격",
+      "expectedKo": "양쪽 끝 적에게 범위 공격"
+    },
+    {
+      "id": "s2-t4-centers-charge",
+      "turn": 4,
+      "phase": 2,
+      "actorKo": "가운데 두 포탑",
+      "actionKo": "각각 에너지 충전",
+      "expectedKo": "중앙 두 포탑 충전"
+    },
+    {
+      "id": "s2-t5-centers-aoe",
+      "turn": 5,
+      "phase": 2,
+      "actorKo": "가운데 두 포탑",
+      "actionKo": "각각 범위 공격",
+      "expectedKo": "중앙 적에게 범위 공격"
+    },
+    {
+      "id": "s2-t5-left-kill",
+      "turn": 5,
+      "phase": 2,
+      "actorKo": "왼쪽 끝 포탑",
+      "actionKo": "녹색 칸 가까운 오크를 처치",
+      "expectedKo": "표적 오크 제거"
+    },
+    {
+      "id": "s2-t5-right-basic",
+      "turn": 5,
+      "phase": 2,
+      "actorKo": "오른쪽 끝 포탑",
+      "actionKo": "HP 100% 오크를 일반 공격. 단일 기술 보존",
+      "expectedKo": "오크 생존, 다음 턴 단일 기술 유지"
+    },
+    {
+      "id": "s2-t6-right-forest-harpy",
+      "turn": 6,
+      "phase": 2,
+      "actorKo": "오른쪽 끝 포탑",
+      "actionKo": "단일 기술로 숲 지형의 하피 처치",
+      "expectedKo": "숲 하피 제거"
+    },
+    {
+      "id": "s2-t6-rightinner-harpy",
+      "turn": 6,
+      "phase": 2,
+      "actorKo": "오른쪽에서 두 번째 포탑",
+      "actionKo": "HP 67% 하피를 일반 공격으로 처치",
+      "expectedKo": "HP 67% 하피 제거"
+    },
+    {
+      "id": "s2-t6-leftinner-harpy",
+      "turn": 6,
+      "phase": 2,
+      "actorKo": "왼쪽에서 두 번째 포탑",
+      "actionKo": "하피를 일반 공격으로 처치",
+      "expectedKo": "대상 하피 제거"
+    },
+    {
+      "id": "s2-t6-left-orc",
+      "turn": 6,
+      "phase": 2,
+      "actorKo": "왼쪽 끝 포탑",
+      "actionKo": "HP 58% 오크를 일반 공격",
+      "expectedKo": "오크 HP 감소, 단일 기술 유지"
+    },
+    {
+      "id": "s2-t7-left-aoe",
+      "turn": 7,
+      "phase": 2,
+      "actorKo": "왼쪽 끝 포탑",
+      "actionKo": "범위 공격",
+      "expectedKo": "왼쪽 적에게 범위 공격"
+    },
+    {
+      "id": "s2-t7-right-harpy",
+      "turn": 7,
+      "phase": 2,
+      "actorKo": "오른쪽 끝 포탑",
+      "actionKo": "하피를 일반 공격으로 처치",
+      "expectedKo": "대상 하피 제거"
+    },
+    {
+      "id": "s2-t7-leftinner-orc",
+      "turn": 7,
+      "phase": 2,
+      "actorKo": "왼쪽에서 두 번째 포탑",
+      "actionKo": "HP 79% 오크를 단일 기술로 처치",
+      "expectedKo": "HP 79% 오크 제거"
+    },
+    {
+      "id": "s2-t7-rightinner-orc",
+      "turn": 7,
+      "phase": 2,
+      "actorKo": "오른쪽에서 두 번째 포탑",
+      "actionKo": "HP 58% 오크를 기술로 처치",
+      "expectedKo": "HP 58% 오크 제거"
+    },
+    {
+      "id": "s2-t8-centers-aoe",
+      "turn": 8,
+      "phase": 2,
+      "actorKo": "가운데 두 포탑",
+      "actionKo": "각각 범위 공격",
+      "expectedKo": "중앙 두 적에게 범위 공격"
+    },
+    {
+      "id": "s2-t8-edges-cleanup",
+      "turn": 8,
+      "phase": 2,
+      "actorKo": "양쪽 끝 포탑",
+      "actionKo": "각각 단일 기술로 남은 적 처치",
+      "expectedKo": "모든 적 제거 및 승리 전개"
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    },
+    {
+      "whenKo": "1단계 완료로 적이 증원되고 턴 4 표식이 다시 나타남",
+      "thenKo": "왼쪽·오른쪽 끝과 중앙 두 포탑을 다시 식별하고 2단계 T4 기록 적용. 같은 턴 표시만으로 기존 단계 완료로 오인하지 않음."
+    },
+    {
+      "whenKo": "기록된 퍼센트 HP 또는 대상 위치와 일치하는 적을 찾지 못함",
+      "thenKo": "대상을 추측하지 않고 화면을 재확인. 계속 불일치하면 질문하고 해당 위키 공략을 연다."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": true,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": [
+    "일본 위키 순서는 기록했으나 한국어 기술 버튼·범위·대상 좌표는 전장 화면에서 검증 전.",
+    "일반 공격·충전 후 대기·적 턴 종료 UI 동작을 자동 계획으로 매핑 전.",
+    "실제 배치된 두 단계의 적 HP·포탑 재배치와 2개 업적 조건을 확인 전.",
+    "이전 검증에서 T3 하피는 HP 66% 상태에서 일반 공격 6216 피해를 받고 생존했다. 위키의 처치 결과와 불일치하므로 원인 확인 전까지 해당 순서는 검증되지 않음.",
+    "목표 main-1-8의 정확한 한국어 영상은 확인되지 않았다. 동명 4-1 영상은 다른 미션으로 제외."
+  ],
+  "coordinateConvention": "포탑은 화면의 고정 칸이 아니라 전장 기준 왼쪽부터 센다. 생존한 아군 포탑의 수와 차례를 확인하고, 재배치 시 순서를 다시 대조한다."
+}

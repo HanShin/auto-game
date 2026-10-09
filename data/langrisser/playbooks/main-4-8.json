@@ -1,0 +1,164 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-4-8-record",
+  "stageId": "main-4-8",
+  "title": "ボールの旅",
+  "summaryKo": "일반 돌골렘은 파괴하지 않는다. 용암 골렘 폭발로 성터 골렘을 옮겨 공의 정지점을 만들고, 돌 설치·파괴로 재행동을 얻는다. 첫 해법의 14개 조작은 puzzle-routes.json에 저장.",
+  "turnLimit": null,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A84-8",
+      "sha256": "f12cadb9687cdbcb39e52f16077ebd6ba59cbe912ce830e349481325f4245f68"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "puzzle-1",
+      "actionKo": "공 위로",
+      "section": "로컬 퍼즐 순서 1",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-2",
+      "actionKo": "용암 골렘 파괴로 옆 성터 골렘 오른2",
+      "section": "로컬 퍼즐 순서 2",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-3",
+      "actionKo": "성터 골렘 위로",
+      "section": "로컬 퍼즐 순서 3",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-4",
+      "actionKo": "같은 골렘 다시 밀어 재행동",
+      "section": "로컬 퍼즐 순서 4",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-5",
+      "actionKo": "성터 골렘 왼쪽",
+      "section": "로컬 퍼즐 순서 5",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-6",
+      "actionKo": "출구 오른위 검은칸 돌 설치",
+      "section": "로컬 퍼즐 순서 6",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-7",
+      "actionKo": "용암 골렘을 오른3칸에서 파괴해 성터 골렘 오른1",
+      "section": "로컬 퍼즐 순서 7",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-8",
+      "actionKo": "성터 골렘 위로",
+      "section": "로컬 퍼즐 순서 8",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-9",
+      "actionKo": "사용한 돌 파괴",
+      "section": "로컬 퍼즐 순서 9",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-10",
+      "actionKo": "왼위 성터 골렘 오른쪽으로 출구 위 막기",
+      "section": "로컬 퍼즐 순서 10",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-11",
+      "actionKo": "왼쪽 돌 파괴",
+      "section": "로컬 퍼즐 순서 11",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-12",
+      "actionKo": "공 오른쪽",
+      "section": "로컬 퍼즐 순서 12",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-13",
+      "actionKo": "왼쪽 돌 설치",
+      "section": "로컬 퍼즐 순서 13",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "puzzle-14",
+      "actionKo": "공 위로",
+      "section": "로컬 퍼즐 순서 14",
+      "sourceId": "wiki",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

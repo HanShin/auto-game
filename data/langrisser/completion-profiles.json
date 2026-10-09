@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "stageId": "main-1-4",
+      "titleKo": "섬의 손님",
+      "titleRegion": [0.37, 0.25, 0.26, 0.08],
+      "detailsGuard": {"all": ["승리 조건", "첫 클리어 보상", "소모"], "none": [{"text": "업적", "exact": true}]},
+      "clearGuard": {"all": [{"text": "수령함", "exact": true, "region": [0.48, 0.53, 0.13, 0.13]}]},
+      "achievementRegion": [0.418, 0.685, 0.072, 0.062],
+      "treasureRegion": [0.296, 0.685, 0.065, 0.062],
+      "observedWindow": [1051, 820]
+    },
+    {
+      "stageId": "main-1-5",
+      "titleKo": "예측할 수 없는 여행",
+      "titleRegion": [0.30, 0.25, 0.40, 0.08],
+      "detailsGuard": {"all": ["승리 조건", "첫 클리어 보상", "소모"], "none": [{"text": "업적", "exact": true}]},
+      "clearGuard": {"all": [{"text": "수령함", "exact": true, "region": [0.48, 0.53, 0.13, 0.13]}]},
+      "achievementRegion": [0.418, 0.685, 0.072, 0.062],
+      "treasureRegion": [0.296, 0.685, 0.065, 0.062],
+      "observedWindow": [1051, 820]
+    }
+  ]
+}

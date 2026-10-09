@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "id": "main-1-4-baike-video",
+      "stageId": "main-1-4",
+      "titleKo": "섬의 손님",
+      "titleZh": "群岛来客",
+      "status": "failed-assisted-validation",
+      "sequenceReviewed": false,
+      "screenMappingVerified": false,
+      "recipeSha256": null,
+      "sources": [
+        {
+          "id": "baike-taptap",
+          "url": "https://www.taptap.cn/moment/760982472031734954",
+          "originalUrl": "https://www.bilibili.com/video/BV15p4y1N7HM/",
+          "author": "小百科 / 梦战百科",
+          "durationSeconds": 331.166667,
+          "reviewMethod": "browser-video-frames-readyState-4",
+          "reviewedDate": "2026-09-27"
+        }
+      ],
+      "sourceClaims": {
+        "allAchievements": true,
+        "achievementConditionsKo": [
+          "첫 턴에 적 2명 처치",
+          "모든 적 처치"
+        ],
+        "reinforcementWaves": 2,
+        "treasureLocationKo": "왼쪽 목재 상자 더미"
+      },
+      "actions": [
+        {
+          "id": "t1-roland-buff",
+          "sourceId": "baike-taptap",
+          "atSeconds": 18.442,
+          "turn": 1,
+          "actorKo": "롤랑",
+          "skillZh": "铸型",
+          "skillKo": "주형",
+          "descriptionKo": "이동 후 주형 사용. 영상에 기술명과 강화 연출이 표시됨.",
+          "verified": true
+        },
+        {
+          "id": "t1-roland-attack",
+          "sourceId": "baike-taptap",
+          "atSeconds": 25.199,
+          "turn": 1,
+          "actorKo": "롤랑",
+          "descriptionKo": "주형 이후 붉은 공격 기술로 첫 왼쪽 제국 병사 공격. 전투 패널 지력 1888 표시.",
+          "verified": true,
+          "skillNameVerified": true,
+          "skillKo": "징벌"
+        },
+        {
+          "id": "t1-nemia-aim",
+          "sourceId": "baike-taptap",
+          "atSeconds": 33.359,
+          "turn": 1,
+          "actorKo": "네미아",
+          "skillZh": "瞄准",
+          "skillKo": "조준",
+          "descriptionKo": "롤랑 오른쪽으로 이동한 뒤 조준 사용.",
+          "verified": true
+        },
+        {
+          "id": "t1-nemia-attack",
+          "sourceId": "baike-taptap",
+          "atSeconds": 46.496,
+          "turn": 1,
+          "actorKo": "네미아",
+          "descriptionKo": "조준과 지형 배치 이후 전진하여 남은 초기 병사를 녹색 공격 기술로 공격. 공격력 1670 표시.",
+          "verified": true,
+          "skillNameVerified": false
+        },
+        {
+          "id": "nemia-treasure",
+          "sourceId": "baike-taptap",
+          "atSeconds": 183.109,
+          "turn": 5,
+          "actorKo": "네미아",
+          "descriptionKo": "왼쪽 목재 상자 더미 칸에서 보물 발견(宝物发现) 대화가 표시됨. 180.089초에 해당 칸으로 이동하는 경로가 보임.",
+          "verified": true
+        },
+        {
+          "id": "t3-pricia-time",
+          "atSeconds": 113,
+          "turn": 3,
+          "actorKo": "프레시아",
+          "descriptionKo": "(-2,4)에서 대기 후 분홍 시간 기술 사용.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t4-nemia-water",
+          "atSeconds": 143,
+          "turn": 4,
+          "actorKo": "네미아",
+          "descriptionKo": "물 지형 중심 (-6,4). 앞선 미리보기 선택을 취소한 뒤 확정한 칸.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t6-roland-punish",
+          "atSeconds": 198.55,
+          "turn": 6,
+          "actorKo": "롤랑",
+          "descriptionKo": "(-2,8)에서 아래쪽 가득 찬 HP의 적 (-2,12)에 징벌.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t7-nemia-water",
+          "atSeconds": 237.94,
+          "turn": 7,
+          "actorKo": "네미아",
+          "descriptionKo": "물 지형 중심 (-3,8).",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t7-roland-left",
+          "atSeconds": 256,
+          "turn": 7,
+          "actorKo": "롤랑",
+          "descriptionKo": "(-5,10)에서 바깥쪽 왼쪽 적 (-7,10)에 징벌.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t8-nemia-left",
+          "atSeconds": 278,
+          "turn": 8,
+          "actorKo": "네미아",
+          "descriptionKo": "(-4,10)에서 왼쪽 적 (-6,10)에 녹색 공격.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t9-nemia-right",
+          "atSeconds": 310.015,
+          "turn": 9,
+          "actorKo": "네미아",
+          "descriptionKo": "(0,10)에서 오른쪽 바깥 적 (2,10) 일반 공격. 영상은 방어 파괴+치명타 15320으로 처치. 실제는 적 3283 HP 생존.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        },
+        {
+          "id": "t9-roland-exit",
+          "atSeconds": 314,
+          "turn": 9,
+          "actorKo": "롤랑",
+          "descriptionKo": "(-2,13) 출구로 이동해 위쪽 적 (-2,11)에 징벌. 이번 판에는 바깥 적 생존으로 실행하지 않음.",
+          "sourceId": "baike-taptap",
+          "verified": true
+        }
+      ],
+      "objectiveEvidence": {
+        "treasureDiscovery": {
+          "sourceId": "baike-taptap",
+          "atSeconds": 183.109,
+          "verified": true
+        },
+        "allAchievementResultCounters": {
+          "verified": false
+        },
+        "localGameAllObjectivesClear": false,
+        "localTreasureDiscovery": {
+          "verified": true,
+          "evidence": "data/langrisser/verification/main-1-4-2026-09-27/treasure-found.png",
+          "postBattleCounterVerified": false
+        }
+      },
+      "unresolved": [
+        "9턴 영상은 치명타 처치, 실제 적 3283 HP 생존. 출처 기반 후속 분기 미확인.",
+        "1턴 프레시아 시간 기술 추가 입력으로 정확 재현에 실패. 처음부터 같은 순서로 재검증 필요.",
+        "턴별 관찰 기록은 별도 저장했으나 모든 UI 입력의 출처 시점과 카메라·칸 자동 매핑은 미완료.",
+        "HP OCR이 3283을 13283으로 오인식. 전투 분기 인식 검증 필요.",
+        "종료 후 한국 게임 상세 화면 업적 2/2·상자 1/1 미검증. 독립 프로그램 전투 완주 0개."
+      ],
+      "localVerificationReport": "data/langrisser/verification/main-1-4-2026-09-27/result.json"
+    },
+    {
+      "id": "main-1-4-camera-t6-reviewed",
+      "stageId": "main-1-4",
+      "status": "native-validation-not-completed",
+      "scope": "camera-only",
+      "sequenceReviewed": true,
+      "screenMappingVerified": false,
+      "recipeSha256": null,
+      "sources": [
+        {
+          "id": "baike-taptap",
+          "url": "https://www.taptap.cn/moment/760982472031734954"
+        }
+      ],
+      "actions": [
+        {
+          "id": "camera-197",
+          "sourceId": "baike-taptap",
+          "atSeconds": 197,
+          "verified": true,
+          "descriptionKo": "아래쪽 병사를 표시하도록 카메라만 이동. 전투 행동 입력 없음."
+        }
+      ],
+      "unresolved": [
+        "게임 창 미탐지로 입력 전에 실패. CUA 카메라 이동을 네이티브 드래그 검증으로 간주하지 않음."
+      ],
+      "localVerificationReport": "data/langrisser/verification/main-1-4-2026-09-27/result.json"
+    }
+  ]
+}

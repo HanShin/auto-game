@@ -1,0 +1,417 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-1-4-record",
+  "stageId": "main-1-4",
+  "title": "섬의 손님",
+  "summaryKo": "이전 영상 대조와 실전 관찰을 사전 행동표로 정리했다. 1턴 시간 기술 오류를 수정했다. 9턴 비치명타 후속 행동과 자동 화면 매핑은 아직 준비 중이다.",
+  "turnLimit": 15,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 2,
+    "treasureAvailability": "present",
+    "treasureDescription": "箱(聖魔券x2)"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-4",
+      "sha256": "a498d7bb6053bcb6616c4dcfd60ea821f9271acdd4ff561c1a6a4e3f5d5c69a3"
+    },
+    {
+      "id": "baike",
+      "label": "小百科 전체 업적 해설 영상",
+      "url": "https://www.taptap.cn/moment/760982472031734954"
+    },
+    {
+      "id": "local-audit",
+      "label": "목표 근거 — 일본 위키",
+      "url": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "t1-1",
+      "turn": 1,
+      "actorKo": "롤랑",
+      "actionKo": "(0,2)로 이동 → 주형 → 징벌로 (-1,3) 적 공격",
+      "expectedKo": "초기 왼쪽 적 처치, 주형·징벌 순서를 바꾸지 않음.",
+      "sourceId": "baike",
+      "section": "영상 1턴 롤랑 행동",
+      "verified": true,
+      "atSeconds": 25.199
+    },
+    {
+      "id": "t1-2",
+      "turn": 1,
+      "actorKo": "네미아",
+      "actionKo": "(1,2) 이동 → 조준 → 물 지형 중심 (1,3)",
+      "expectedKo": "조준 후 추가 이동 가능.",
+      "sourceId": "baike",
+      "section": "영상 1턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 33.359
+    },
+    {
+      "id": "t1-3",
+      "turn": 1,
+      "actorKo": "네미아",
+      "actionKo": "(1,3) 이동 → 녹색 공격 기술로 (0,4) 적 공격",
+      "expectedKo": "초기 두 적 처치. 생존하면 첫 턴 업적이 위태로워 기록 없는 후속 입력 중단.",
+      "sourceId": "baike",
+      "section": "영상 1턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 46.496
+    },
+    {
+      "id": "t1-4",
+      "turn": 1,
+      "actorKo": "프레시아",
+      "actionKo": "(1,2) 이동 → 대기. 분홍 시간 기술은 사용하지 않음.",
+      "expectedKo": "이전 실험의 추가 기술 입력 오류를 반복하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 1턴 프레시아 행동",
+      "verified": true,
+      "atSeconds": 55.25
+    },
+    {
+      "id": "t2-1",
+      "turn": 2,
+      "actorKo": "롤랑",
+      "actionKo": "(-1,3) 이동 → 대기",
+      "expectedKo": "영상과 같은 위치.",
+      "sourceId": "baike",
+      "section": "영상 2턴 롤랑 행동",
+      "verified": true
+    },
+    {
+      "id": "t2-2",
+      "turn": 2,
+      "actorKo": "네미아",
+      "actionKo": "(0,4) 이동 → 대기 → 추가 물 지형 생략",
+      "expectedKo": "물 지형을 추가 배치하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 2턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t2-3",
+      "turn": 2,
+      "actorKo": "프레시아",
+      "actionKo": "(0,3) 이동 → 대기 → 시간 기술 생략",
+      "expectedKo": "다음 턴 접근 위치 유지.",
+      "sourceId": "baike",
+      "section": "영상 2턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t3-1",
+      "turn": 3,
+      "actorKo": "네미아",
+      "actionKo": "(-3,4) 이동 → 조준 → 물 지형 생략",
+      "expectedKo": "왼쪽 두 적 (-7,4),(-6,5) 증원.",
+      "sourceId": "baike",
+      "section": "영상 3턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t3-2",
+      "turn": 3,
+      "actorKo": "네미아",
+      "actionKo": "(-5,4) 이동 → 녹색 공격으로 (-7,4) 공격 → 물 지형 생략",
+      "expectedKo": "영상에서는 적이 생존 후 반격으로 처치. 바로 처치돼도 다음 롤랑 대상은 별개이므로 순서 유지.",
+      "sourceId": "baike",
+      "section": "영상 3턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t3-3",
+      "turn": 3,
+      "actorKo": "롤랑",
+      "actionKo": "(-3,4) 이동 → 주형 → (-4,4) 이동 → 징벌 (-6,5)",
+      "expectedKo": "해당 적 처치.",
+      "sourceId": "baike",
+      "section": "영상 3턴 롤랑 행동",
+      "verified": true
+    },
+    {
+      "id": "t3-4",
+      "turn": 3,
+      "actorKo": "프레시아",
+      "actionKo": "(-2,4) 이동 → 대기 → 분홍 시간 기술 사용·확정",
+      "expectedKo": "시간 기술은 이 턴에 사용.",
+      "sourceId": "baike",
+      "section": "영상 3턴 프레시아 행동",
+      "verified": true,
+      "atSeconds": 113
+    },
+    {
+      "id": "t4-1",
+      "turn": 4,
+      "actorKo": "네미아",
+      "actionKo": "(-5,4)에서 (-3,4) 일반 공격",
+      "expectedKo": "피해량 숫자 자체보다 대상·다음 행동 가능 여부 확인.",
+      "sourceId": "baike",
+      "section": "영상 4턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t4-2",
+      "turn": 4,
+      "actorKo": "네미아",
+      "actionKo": "물 지형 중심을 (-6,4)에 확정",
+      "expectedKo": "영상의 취소된 미리보기 칸을 최종 목적지로 기록하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 4턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 143
+    },
+    {
+      "id": "t4-3",
+      "turn": 4,
+      "actorKo": "롤랑",
+      "actionKo": "(-4,5) 이동 → (-2,5) 일반 공격",
+      "expectedKo": "해당 적 HP 감소.",
+      "sourceId": "baike",
+      "section": "영상 4턴 롤랑 행동",
+      "verified": true
+    },
+    {
+      "id": "t4-4",
+      "turn": 4,
+      "actorKo": "프레시아",
+      "actionKo": "(-2,4)에서 (-3,4) 일반 공격 → 시간 기술 생략",
+      "expectedKo": "적 턴 반격 뒤 남은 두 적이 제거되고 프레시아 생존 확인. 생존 적·아군 사망이면 질문.",
+      "sourceId": "baike",
+      "section": "영상 4턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t5-1",
+      "turn": 5,
+      "actorKo": "롤랑",
+      "actionKo": "(-3,7) 이동 → 금색 범위 공격을 아래로 사용",
+      "expectedKo": "아래쪽 적 피해.",
+      "sourceId": "baike",
+      "section": "영상 5턴 롤랑 행동",
+      "verified": true
+    },
+    {
+      "id": "t5-2",
+      "turn": 5,
+      "actorKo": "네미아",
+      "actionKo": "(-9,3) 상자 칸 이동 → 대기 → 보물 대화 진행",
+      "expectedKo": "보물 발견, 성마권 2개 확인. 미발견이면 다음 이동 전에 기록 확인.",
+      "sourceId": "baike",
+      "section": "영상 5턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 183.109
+    },
+    {
+      "id": "t5-3",
+      "turn": 5,
+      "actorKo": "프레시아",
+      "actionKo": "(-2,6) 이동 → 대기 → 시간 생략",
+      "expectedKo": "다음 턴 배치 유지.",
+      "sourceId": "baike",
+      "section": "영상 5턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t6-1",
+      "turn": 6,
+      "actorKo": "롤랑",
+      "actionKo": "(-2,8) 이동 → 아래쪽 HP가 가득 찬 적 (-2,12)에 징벌",
+      "expectedKo": "정확한 대상 처치. 가까운 적과 혼동하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 6턴 롤랑 행동",
+      "verified": true,
+      "atSeconds": 198.55
+    },
+    {
+      "id": "t6-2",
+      "turn": 6,
+      "actorKo": "네미아",
+      "actionKo": "(-6,5) 물 지형으로 이동 → 조준 → 지형 생략 → (-4,5) 이동 → 대기",
+      "expectedKo": "회복·무작위 강화 숫자 차이만으로 검색하거나 중단하지 않음. 다음 행동 조건으로 판정.",
+      "sourceId": "baike",
+      "section": "영상 6턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t6-3",
+      "turn": 6,
+      "actorKo": "프레시아",
+      "actionKo": "(-2,5) 이동 → 대기 → 시간 생략",
+      "expectedKo": "두 번째 증원 4기: (-7,10),(-6,11),(2,10),(1,11).",
+      "sourceId": "baike",
+      "section": "영상 6턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t7-1",
+      "turn": 7,
+      "actorKo": "네미아",
+      "actionKo": "(-3,6) 이동 → (-3,8) 일반 공격",
+      "expectedKo": "해당 적 처치. 이전 미리보기 실수인 (-3,7)에서 확정하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 7턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t7-2",
+      "turn": 7,
+      "actorKo": "네미아",
+      "actionKo": "물 지형 중심 (-3,8)",
+      "expectedKo": "이후 회복 이동에 사용할 지형.",
+      "sourceId": "baike",
+      "section": "영상 7턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 237.94
+    },
+    {
+      "id": "t7-3",
+      "turn": 7,
+      "actorKo": "롤랑",
+      "actionKo": "(-3,10) 이동 → 주형 → (-5,10) 이동 → 징벌 (-7,10)",
+      "expectedKo": "왼쪽 바깥 적 처치. 미리보기 중인 다른 적을 최종 대상으로 오인하지 않음.",
+      "sourceId": "baike",
+      "section": "영상 7턴 롤랑 행동",
+      "verified": true,
+      "atSeconds": 256
+    },
+    {
+      "id": "t7-4",
+      "turn": 7,
+      "actorKo": "프레시아",
+      "actionKo": "(-2,8) 이동 → 대기 → 시간 생략",
+      "expectedKo": "회복 및 생존 확인.",
+      "sourceId": "baike",
+      "section": "영상 7턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t8-1",
+      "turn": 8,
+      "actorKo": "네미아",
+      "actionKo": "(-4,10) 이동 → 녹색 공격 (-6,10) → 물 지형 생략",
+      "expectedKo": "왼쪽 남은 적 처치.",
+      "sourceId": "baike",
+      "section": "영상 8턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 278
+    },
+    {
+      "id": "t8-2",
+      "turn": 8,
+      "actorKo": "롤랑",
+      "actionKo": "(-3,11) 이동 → 금색 범위 공격을 오른쪽 (1,11) 방향에 사용",
+      "expectedKo": "오른쪽 가까운 적 피해. 적 행동 후 (-2,11)에 접근.",
+      "sourceId": "baike",
+      "section": "영상 8턴 롤랑 행동",
+      "verified": true
+    },
+    {
+      "id": "t8-3",
+      "turn": 8,
+      "actorKo": "프레시아",
+      "actionKo": "(-3,9) 이동 → 대기 → 시간 생략",
+      "expectedKo": "다음 턴 생존·행동 가능.",
+      "sourceId": "baike",
+      "section": "영상 8턴 프레시아 행동",
+      "verified": true
+    },
+    {
+      "id": "t9-1",
+      "turn": 9,
+      "actorKo": "네미아",
+      "actionKo": "(-1,10) 이동 → 조준 → 물 지형 생략 → (0,10) 이동 → 일반 공격 (2,10)",
+      "expectedKo": "오른쪽 바깥 적 처치가 다음 출구 행동의 필수 조건.",
+      "sourceId": "baike",
+      "section": "영상 9턴 네미아 행동",
+      "verified": true,
+      "atSeconds": 310.015
+    },
+    {
+      "id": "t9-2",
+      "turn": 9,
+      "actorKo": "네미아",
+      "actionKo": "추가 물 지형 생략 대기",
+      "expectedKo": "바깥 적이 살아 있으면 롤랑 출구 이동 전에 질문. 이전 실험에서는 HP 3283 생존.",
+      "sourceId": "baike",
+      "section": "영상 9턴 네미아 행동",
+      "verified": true
+    },
+    {
+      "id": "t9-3",
+      "turn": 9,
+      "actorKo": "롤랑",
+      "actionKo": "바깥 적 처치 확인 후에만 (-2,13) 출구 이동 → 징벌 (-2,11)",
+      "expectedKo": "가까운 적 처치 후 승리 진행. 바깥 적 미처치이면 이 단계 실행 금지.",
+      "sourceId": "baike",
+      "section": "영상 9턴 롤랑 행동",
+      "verified": true,
+      "atSeconds": 314
+    },
+    {
+      "id": "t9-4",
+      "turn": 9,
+      "actorKo": "결과 확인",
+      "actionKo": "대화·결과 화면 종료 후 섬의 손님 상세 화면으로 복귀",
+      "expectedKo": "제목 확인 후 서로 다른 두 화면에서 클리어·업적 2/2·상자 1/1 감사. 미충족이면 완료 아님.",
+      "sourceId": "local-audit",
+      "section": "영상 9턴 결과 확인 행동",
+      "verified": false
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    },
+    {
+      "whenKo": "1턴 프레시아의 분홍 시간 기술 선택 화면",
+      "thenKo": "기록은 대기다. 기술을 추가 사용하지 않고 확인된 대기 버튼으로 종료."
+    },
+    {
+      "whenKo": "3턴 네미아 공격으로 적이 영상보다 일찍 처치됨",
+      "thenKo": "다음 롤랑의 별도 대상을 확인하고 정해진 순서 유지."
+    },
+    {
+      "whenKo": "4턴 프레시아 공격 후 적 생존",
+      "thenKo": "영상의 이후 적 턴 진행 뒤 두 적 제거·프레시아 생존 조건을 확인. 조건 불충족 시 질문."
+    },
+    {
+      "whenKo": "9턴 바깥 적 미처치 또는 체력 판독 불명",
+      "thenKo": "지정한 관찰 예산 내 다시 확인. 처치가 확정되지 않으면 출구 이동 금지, 현재 화면과 미처치 정보를 묶어 사용자에게 요청."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": [
+    "녹색 공격·금색 범위 기술의 정확한 한국어 이름과 전체 UI 입력 좌표 미매핑.",
+    "9턴 비치명타에 대응하는 구체적인 공격 순서 미작성.",
+    "입력 전후 칸·적 생존 판정, 카메라 이동 및 HP OCR 오인식 대응 매핑 필요.",
+    "원본과 같은 순서의 완주 재검증 및 업적 2/2·상자 1/1 사후 확인 필요."
+  ],
+  "coordinateConvention": "롤랑 최초 시작 칸=(0,0), 오른쪽 +x, 아래 +y. 상대 칸 기록이며 카메라에 따른 픽셀 좌표가 아니다."
+}

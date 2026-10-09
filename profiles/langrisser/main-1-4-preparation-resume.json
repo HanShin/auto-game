@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "main-1-4-preparation-resume",
+  "stageId": "main-1-4",
+  "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+  "outcome": "battle-entry-only",
+  "validation": "current-preparation-screen-confirmed",
+  "steps": [
+    {
+      "id": "start-battle",
+      "before": {
+        "all": [
+          "참전 인원",
+          "전장 총 전력"
+        ]
+      },
+      "action": {
+        "type": "click",
+        "point": [
+          0.942,
+          0.93
+        ]
+      },
+      "after": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "timeoutMs": 45000
+    },
+    {
+      "id": "skip-turn-intro",
+      "before": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "action": {
+        "type": "click",
+        "text": {
+          "text": "SKIP",
+          "exact": false,
+          "region": [
+            0.85,
+            0,
+            0.15,
+            0.12
+          ],
+          "confidence": 0.25
+        }
+      },
+      "after": {
+        "all": [
+          {
+            "text": "위험 범위",
+            "confidence": 0.25
+          },
+          {
+            "text": "AUTO",
+            "confidence": 0.25
+          }
+        ],
+        "none": [
+          "SKIP",
+          "전투 준비"
+        ]
+      },
+      "timeoutMs": 30000
+    }
+  ],
+  "executionScope": "battle-entry"
+}

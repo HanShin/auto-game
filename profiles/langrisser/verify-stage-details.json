@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "id": "verify-main1-4-details",
+  "stageId": "main-1-4",
+  "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+  "outcome": "menu-input-verification-only",
+  "steps": [
+    {
+      "id": "open-achievements",
+      "before": {
+        "all": [
+          "섬의 손님",
+          "승리 조건",
+          "첫 클리어 보상"
+        ],
+        "none": [
+          {
+            "text": "업적",
+            "exact": true
+          }
+        ]
+      },
+      "action": {
+        "type": "click",
+        "point": [
+          0.442,
+          0.715
+        ]
+      },
+      "after": {
+        "all": [
+          {
+            "text": "업적",
+            "exact": true
+          },
+          "1턴 내에 적군 2명 처치",
+          "모든 적 처치"
+        ]
+      }
+    },
+    {
+      "id": "close-achievements",
+      "before": {
+        "all": [
+          {
+            "text": "업적",
+            "exact": true
+          },
+          "1턴 내에 적군 2명 처치",
+          "모든 적 처치"
+        ]
+      },
+      "action": {
+        "type": "click",
+        "point": [
+          0.842,
+          0.732
+        ]
+      },
+      "after": {
+        "all": [
+          "섬의 손님",
+          "승리 조건",
+          "첫 클리어 보상"
+        ],
+        "none": [
+          {
+            "text": "업적",
+            "exact": true
+          }
+        ]
+      }
+    }
+  ],
+  "executionScope": "menu"
+}

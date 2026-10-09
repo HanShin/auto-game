@@ -1,0 +1,17 @@
+node_modules/
+.runtime/
+device.local.json
+.DS_Store
+dist/
+__pycache__/
+*.pyc
+*.lnk
+.env
+.env.*
+!.env.example
+*.local.json
+.codex/
+.agents/
+.github-upload/
+# Historical full-resolution captures stay local; share the latest compact proof.
+data/langrisser/verification/**/*.png

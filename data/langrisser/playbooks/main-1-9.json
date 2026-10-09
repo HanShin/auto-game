@@ -1,0 +1,152 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-1-9-record",
+  "stageId": "main-1-9",
+  "title": "守り人の試練",
+  "summaryKo": "공 밀기 퍼즐의 순서 데이터는 puzzle-routes.json에 저장. 4단계 합계 25수. 좌표가 아닌 공의 상대 위치와 방향을 기준으로 실행해야 한다.",
+  "turnLimit": 1,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-9",
+      "sha256": "bbd37860e4dd18666ba0ccb489ec39ac05213da1cb1923c2785ce193d560b2dd"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "wave-1-1",
+      "phase": 1,
+      "actorKo": "bottom",
+      "actionKo": "up → right → down",
+      "sourceId": "wiki",
+      "section": "퍼즐 1단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-1-2",
+      "phase": 1,
+      "actorKo": "top",
+      "actionKo": "left → down",
+      "sourceId": "wiki",
+      "section": "퍼즐 1단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-2-1",
+      "phase": 2,
+      "actorKo": "bottom",
+      "actionKo": "up",
+      "sourceId": "wiki",
+      "section": "퍼즐 2단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-2-2",
+      "phase": 2,
+      "actorKo": "top",
+      "actionKo": "right → down → right",
+      "sourceId": "wiki",
+      "section": "퍼즐 2단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-3-1",
+      "phase": 3,
+      "actorKo": "top",
+      "actionKo": "down → left",
+      "sourceId": "wiki",
+      "section": "퍼즐 3단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-3-2",
+      "phase": 3,
+      "actorKo": "left",
+      "actionKo": "up → right → down",
+      "sourceId": "wiki",
+      "section": "퍼즐 3단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-3-3",
+      "phase": 3,
+      "actorKo": "right",
+      "actionKo": "right → up → left",
+      "sourceId": "wiki",
+      "section": "퍼즐 3단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-4-1",
+      "phase": 4,
+      "actorKo": "right",
+      "actionKo": "left",
+      "sourceId": "wiki",
+      "section": "퍼즐 4단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-4-2",
+      "phase": 4,
+      "actorKo": "bottom",
+      "actionKo": "right → up → right",
+      "sourceId": "wiki",
+      "section": "퍼즐 4단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    },
+    {
+      "id": "wave-4-3",
+      "phase": 4,
+      "actorKo": "top",
+      "actionKo": "right → right → down → left",
+      "sourceId": "wiki",
+      "section": "퍼즐 4단계",
+      "verified": true,
+      "expectedKo": "기물 배치 화면 매핑 필요"
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

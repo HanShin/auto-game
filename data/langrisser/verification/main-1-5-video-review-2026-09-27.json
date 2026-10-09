@@ -1,0 +1,96 @@
+{
+  "reviewedAtLocal": "2026-09-27 Asia/Seoul",
+  "stageId": "main-1-5",
+  "titleKo": "예측할 수 없는 여행",
+  "gameMatch": {
+    "videoTitle": "랑그릿사 문 너머의 저편 토이워의 메아리 평원 챕터1 5.예측할 수 없는 여행 클리어영상",
+    "videoUrl": "https://www.youtube.com/watch?v=AKzMhlpyfaA",
+    "gameObjective": "4턴간 버티기",
+    "localStageDetails": {
+      "treasure": "1/1",
+      "achievements": "2/2",
+      "sortieStarted": true,
+      "clearVerified": true,
+      "perfectVerified": true
+    }
+  },
+  "sourceStatus": "exact-stage-video-reviewed-and-manually-reproduced; full-objectives-verified-in-game",
+  "guideClaims": {
+    "wikiUrl": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-5",
+    "chestLocationKo": "꽃 아래",
+    "secondAchievementConditionKo": "안드리올 체력 60% 미만으로 승리(게임 결과의 정확한 조건); 지형 세 번은 위키의 달성 방법 설명",
+    "otherAchievementConditionKo": "프레시아가 피해를 받지 않음",
+    "earlyTurnsCaveatKo": "안드리올은 1~2턴 약화 무효",
+    "turnByTurnActionsProvided": false
+  },
+  "decision": {
+    "turnByTurnRouteReady": true,
+    "missing": [],
+    "manualOnly": true,
+    "routeReference": "main-1-5-coordinate-ledger.json",
+    "mapPanAssistanceRequiredOnce": true
+  },
+  "initialObservationsHistorical": [
+    {
+      "atSeconds": 7,
+      "turn": null,
+      "verified": true,
+      "observationKo": "아군은 화면 왼쪽 아래에 모여 있고 적 다수는 위쪽과 오른쪽에 보인다. 꽃 표시는 오른쪽 아래에 있다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 46,
+      "turn": null,
+      "verified": true,
+      "actorKo": "네미아",
+      "skillKo": "고고한 섬의 파도",
+      "observationKo": "기술 연출과 이름이 보인다. 지정 칸과 이 기술을 사용한 턴은 영상에서 판정할 수 없다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 73,
+      "turn": null,
+      "verified": true,
+      "observationKo": "안드리올 HP 69%와 아군들의 위치가 보인다. 이전 입력과의 연결은 판정할 수 없다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 104,
+      "turn": null,
+      "verified": true,
+      "actorKo": "네미아",
+      "observationKo": "이동 범위와 경로 미리보기가 보이나 출발·도착 칸의 좌표 및 확정 입력은 판독할 수 없다. 꽃은 화면 오른쪽 아래에 남아 있다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 129,
+      "turn": null,
+      "verified": true,
+      "observationKo": "네미아 선택 상태와 이동/공격 범위, 안드리올 표시가 보인다. 지형을 밟게 한 횟수는 확인되지 않는다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 144,
+      "turn": null,
+      "verified": true,
+      "observationKo": "승리 화면이 보인다.",
+      "executableAction": false
+    },
+    {
+      "atSeconds": 151,
+      "turn": null,
+      "verified": true,
+      "observationKo": "프레시아가 피해를 받지 않았다는 업적 알림 1개만 판독된다. 업적 2/2와 숨은 보물 발견은 확인할 수 없다.",
+      "executableAction": false
+    }
+  ],
+  "observedCompletion": {
+    "chest": "1/1",
+    "achievements": "2/2",
+    "newClearVerified": true,
+    "perfectVerified": true,
+    "firstClearRewardsClaimed": true,
+    "dateLocal": "2026-09-27",
+    "proof": "data/langrisser/verification/main-1-5-perfect-2026-09-27.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-27T08:38:51.120916+00:00",
+  "feature": "open-guide-with-help-question",
+  "checks": {
+    "fullSuitePassed": 50,
+    "fullSuiteFailed": 0,
+    "stepSpecificSourceAndTimestamp": true,
+    "normalPlayDoesNotOpenBrowser": true,
+    "oneOpenAttemptPerQuestion": true,
+    "openFailureKeepsGamePaused": true,
+    "browserLaunchTest": "mocked process launcher; no live browser launch in this change"
+  },
+  "gameInputsSentThisChange": 0,
+  "nativeAppRebuilt": false
+}

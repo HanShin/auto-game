@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "id": "main-1-4-intro-resume",
+  "stageId": "main-1-4",
+  "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+  "outcome": "battle-entry-only",
+  "validation": "current-intro-screen-confirmed; remainder-not-replayed",
+  "steps": [
+    {
+      "id": "skip-intro",
+      "before": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0.1,
+              0.15,
+              0.16
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "action": {
+        "type": "click",
+        "text": {
+          "text": "SKIP",
+          "exact": false,
+          "region": [
+            0.85,
+            0.1,
+            0.15,
+            0.16
+          ],
+          "confidence": 0.25
+        }
+      },
+      "after": {
+        "all": [
+          "스토리 대화를 스킵",
+          "확인",
+          "취소"
+        ]
+      }
+    },
+    {
+      "id": "confirm-skip",
+      "before": {
+        "all": [
+          "스토리 대화를 스킵",
+          "확인",
+          "취소"
+        ]
+      },
+      "action": {
+        "type": "click",
+        "text": {
+          "text": "확인",
+          "exact": true,
+          "region": [
+            0.5,
+            0.5,
+            0.2,
+            0.2
+          ]
+        }
+      },
+      "after": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ],
+        "none": [
+          "스토리 대화를 스킵"
+        ]
+      },
+      "timeoutMs": 45000
+    },
+    {
+      "id": "skip-map-intro",
+      "before": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "action": {
+        "type": "click",
+        "text": {
+          "text": "SKIP",
+          "exact": false,
+          "region": [
+            0.85,
+            0,
+            0.15,
+            0.12
+          ],
+          "confidence": 0.25
+        }
+      },
+      "after": {
+        "all": [
+          "전투 준비"
+        ]
+      },
+      "timeoutMs": 45000
+    },
+    {
+      "id": "start-battle",
+      "before": {
+        "all": [
+          "전투 준비"
+        ]
+      },
+      "action": {
+        "type": "click",
+        "point": [
+          0.942,
+          0.93
+        ]
+      },
+      "after": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "timeoutMs": 45000
+    },
+    {
+      "id": "skip-turn-intro",
+      "before": {
+        "all": [
+          {
+            "text": "SKIP",
+            "exact": false,
+            "region": [
+              0.85,
+              0,
+              0.15,
+              0.12
+            ],
+            "confidence": 0.25
+          }
+        ]
+      },
+      "action": {
+        "type": "click",
+        "text": {
+          "text": "SKIP",
+          "exact": false,
+          "region": [
+            0.85,
+            0,
+            0.15,
+            0.12
+          ],
+          "confidence": 0.25
+        }
+      },
+      "after": {
+        "all": [
+          "위험 범위",
+          "AUTO"
+        ],
+        "none": [
+          "SKIP",
+          "전투 준비"
+        ]
+      },
+      "timeoutMs": 30000
+    }
+  ],
+  "executionScope": "battle-entry"
+}

@@ -1,0 +1,8 @@
+{
+  "recipe": "verify-main1-4-details",
+  "digest": "e4bf9cc4d0a88c3735dd9593258d4419e24dc936fb80340677a8fd81fe8fd087",
+  "nextStep": 2,
+  "phase": "finished",
+  "step": "close-achievements",
+  "outcome": "menu-input-verification-only"
+}

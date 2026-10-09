@@ -1,0 +1,57 @@
+{
+  "stageId": "main-1-4",
+  "titleKo": "섬의 손님",
+  "observed": "2026-09-27",
+  "sourceUrl": "https://langrisser.wikiru.jp/?ゲートの彼方/本編1-4",
+  "status": "assisted-clear-observed",
+  "verifiedAutomaticClear": false,
+  "window": {
+    "width": 1051,
+    "height": 820
+  },
+  "observations": [
+    "출격 전 대화와 전투 시작 대화의 SKIP 위치가 다름. 전자는 확인 창이 있고 후자는 바로 넘어감.",
+    "고정 제공 유닛 롤랑·네미아·프레시아. 전투 준비 참전 인원 0/0.",
+    "스킬 및 이동 확정 전에 화면의 카메라가 이동함. 이전 화면의 격자 좌표를 재사용하면 안 됨.",
+    "롤랑의 징벌은 첫 제국 병사를 한 번에 처치하지 못했음.",
+    "일반 자동 전투는 첫 교전과 증원 구간을 진행하지만 마지막 증원에서 아군 체력이 크게 감소함. 완주 경로로 검증되지 않음.",
+    "목표는 아래쪽 초록색 2x2 지정 영역에 아군 전원 도착. 전원 생존이 필요함.",
+    "네미아의 고고한 섬의 파도는 행동 후 위치 한 칸과 인접 1칸에 2턴짜리 심오의 해류를 생성함. 해당 지형에서 아군 행동 종료 시 15% 회복과 무작위 버프, 적 행동 종료 시 15% 고정 피해. 아군 통과 시 이동력 2칸 면제 효과가 있어 탈출에 활용 가능함.",
+    "프레시아의 행동 후 시침은 시간 당기기/시간 정지 중 선택한다. 시간 정지는 위험 범위에서 불굴 효과를 부여하므로 마지막 증원 통과에 사용했다."
+  ],
+  "turns": 8,
+  "achievements": [
+    "감옥 돌파"
+  ],
+  "treasureCollected": false,
+  "assistedRoute": [
+    "롤랑을 시작 칸에서 남쪽 3칸 이동해 왼쪽 초기 적에게 징벌.",
+    "게임 내 자동 전투로 증원 구간까지 진행한 후 6턴에 중지. 이후 구간은 수동 보정했다.",
+    "6턴 네미아는 아래 초록 지정 구역의 왼쪽 위 칸 도착. 행동 후 통로 중앙에 파도 지형 배치. 프레시아는 남쪽 3칸 이동 후 시간 정지.",
+    "7턴 롤랑은 남쪽 3칸으로 지정 구역 바로 위 칸. 네미아는 구역 왼쪽 아래 칸으로 이동. 프레시아는 남쪽 3칸으로 구역 왼쪽 위 칸, 시간 당기기 사용.",
+    "8턴 롤랑을 구역 오른쪽 위 칸으로 이동 후 대기하여 전원 도착."
+  ],
+  "completionTarget": {
+    "clear": true,
+    "achievements": {
+      "requiredTotal": 2,
+      "known": [
+        "감옥 돌파: 한 턴에 적 2명 처치",
+        "[단서 정보] 동료의 힘: 모든 적 처치"
+      ]
+    },
+    "treasures": {
+      "requiredTotal": 1,
+      "locationGuide": "첫 증원 왼쪽 위 상자(풀밭)",
+      "reward": "성마권 2장"
+    },
+    "finishGate": "상자 회수와 적 전멸을 확인한 뒤 아군 전원 지정 장소 도착"
+  },
+  "entryVerification": {
+    "deploy": "입력 성공, SKIP OCR 접미사 때문에 후조건 실패",
+    "dialogueSkip": "3단계 자동 실행 성공",
+    "preparationToBattle": "2단계 자동 실행 성공",
+    "singleRunVerified": false
+  },
+  "allObjectivesRouteStatus": "in-progress; previous escape route does not satisfy all objectives"
+}

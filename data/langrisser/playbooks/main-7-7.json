@@ -1,0 +1,51 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-7-7-record",
+  "stageId": "main-7-7",
+  "title": "スーパー変身",
+  "summaryKo": "밀기로 같은 색을 정렬 후 파랑→빨강→초록 순환 변환. W1 밀기2·변환1, W2 초록 정렬 후 변환2·파랑 정렬 후 변환1, W3 왼쪽2/4열 변환 후4열·3열의 파랑을 각각 정렬·변환. 사용 횟수3/6/6.",
+  "turnLimit": 5,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A87-7",
+      "sha256": "11af7fa851383e1cf0d0a0296c2430d30286996643eb5821814003c3182265f3"
+    }
+  ],
+  "instructions": [],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

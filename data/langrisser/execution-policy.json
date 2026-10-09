@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "mode": "offline-recorded-actions",
+  "onUnexpectedState": "bounded-local-recheck-then-recorded-branch-then-ask-user",
+  "allowImprovisedCombat": false,
+  "inputHold": {
+    "active": false,
+    "reason": "사용자 요청에 따라 준비된 로컬 기록만 실행. 현재 9턴 복구 기록은 미완성이므로 실행 계획으로 컴파일되지 않음.",
+    "releaseCondition": "별도 전역 재승인 없이 기록 검토·화면 매핑이 준비된 계획을 실행."
+  },
+  "recordedExecution": {
+    "researchDuringPlay": false,
+    "normalActionsRequireConfirmation": false,
+    "documentedBranchesRequireConfirmation": false,
+    "beforeTimeoutMs": 12000,
+    "afterTimeoutMs": 20000,
+    "stableObservations": 2,
+    "defaultMaxVisitsPerStep": 1,
+    "maxVisitsPerStepLimit": 10,
+    "unknownInputReplay": false,
+    "helpRequest": "save-screenshot-and-question-once",
+    "resume": "reobserve-before-any-input",
+    "openGuideOnHelp": true,
+    "guideOpenFrequency": "once-per-question"
+  },
+  "requireRecordedPlan": true
+}

@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "id": "main-1-4-source-validation-2026-09-27",
+  "stageId": "main-1-4",
+  "titleKo": "섬의 손님",
+  "updatedAt": "2026-09-27T08:04:04.485785+00:00",
+  "status": "failed-validation-paused-in-battle",
+  "method": "native-entry-then-cua-assisted-combat",
+  "standaloneAutomaticClear": false,
+  "sourceExactReplay": false,
+  "allObjectivesVerified": false,
+  "sourceUrl": "https://www.taptap.cn/moment/760982472031734954",
+  "originalUrl": "https://www.bilibili.com/video/BV15p4y1N7HM/",
+  "coordinateConvention": "롤랑 최초 시작 칸 (0,0), 오른쪽 +x, 아래 +y. 관찰 기록용 상대 칸이며 자동 클릭 좌표가 아님.",
+  "objectiveObservations": {
+    "twoKillsFirstTurn": true,
+    "treasureDiscoveryObserved": true,
+    "treasureRewardObserved": "성마권 2개",
+    "postBattleCountersAudited": false,
+    "stageCompleteThisAttempt": false
+  },
+  "nativeEntry": {
+    "run": ".runtime/langrisser/run-4BD6974A-3B05-4C84-844B-2F3710CD0BE4",
+    "stepsVerified": 2,
+    "outcome": "battle-entry-only"
+  },
+  "nativeCamera": {
+    "run": ".runtime/langrisser/run-53B9B643-6D86-4639-8135-C5AF7276A3C3",
+    "status": "failed-before-input",
+    "error": "GAME_WINDOW_REQUIRED: 발견 0",
+    "context": "공략 영상 전체 화면이 게임 창을 가린 상태. 네이티브 드래그 성능은 검증하지 못함."
+  },
+  "currentBattle": {
+    "turn": 9,
+    "auto": false,
+    "nemia": {
+      "tile": [
+        0,
+        10
+      ],
+      "hp": 15053,
+      "acted": true
+    },
+    "roland": {
+      "tile": [
+        -3,
+        11
+      ],
+      "hp": 10298,
+      "acted": false
+    },
+    "pricia": {
+      "tile": [
+        -3,
+        9
+      ],
+      "hpApprox": 9626,
+      "acted": false
+    },
+    "remainingEnemies": [
+      {
+        "tile": [
+          2,
+          10
+        ],
+        "hp": 3283,
+        "maxHp": 15083,
+        "defense": 598
+      },
+      {
+        "tile": [
+          -2,
+          11
+        ],
+        "hp": null
+      }
+    ],
+    "heldSourceAction": "롤랑 (-2,13) 출구로 이동 후 징벌 (-2,11). 바깥 적이 살아 있어 그대로 실행하지 않음."
+  },
+  "blockers": [
+    {
+      "id": "T1_EXTRA_TIME_SKILL",
+      "kind": "execution-deviation",
+      "turn": 1,
+      "description": "프레시아 시간 기술을 원본과 다르게 추가 사용. 이번 실행은 처음부터 완전한 동일 순서 재현이 아님."
+    },
+    {
+      "id": "T9_CRITICAL_VARIANCE",
+      "kind": "source-outcome-mismatch",
+      "turn": 9,
+      "sourceAtSeconds": 310.015,
+      "expected": "바깥 적 처치",
+      "actual": "방어 파괴 발동, 치명타 미발동, HP 3283 생존",
+      "recoverySourceVerified": false
+    },
+    {
+      "id": "HP_OCR_AMBIGUITY",
+      "kind": "recognition",
+      "description": "3283/15083을 OCR이 13283 / 15083(confidence 0.5)으로 오인식. 실제 HP는 화면으로 판독. OCR만으로 전투 분기를 실행할 수 없음."
+    }
+  ],
+  "followupResearch": {
+    "taptapComments": "댓글에 예외 대응 없음",
+    "alternateUrl": "https://www.bilibili.com/video/BV1qF411k75S/",
+    "alternateReview": "제목·본문·로그인 없이 표시된 댓글 확인. 구체적인 9턴 비치명타 복구 행동은 발견하지 못함. 대체 영상 전체 검토는 하지 않음.",
+    "wiki": "저장된 본편1-4 요약은 증원·상자 위치 전략이며 턴별 행동표가 아님."
+  },
+  "actionsObserved": [
+    {
+      "turn": 1,
+      "actionsKo": "롤랑 (0,2) 주형→징벌 (-1,3) 처치. 네미아 (1,2) 조준→물 지형 (1,3)→(1,3) 녹색 공격 (0,4) 처치. 프레시아 (1,2) 대기.",
+      "differenceKo": "프레시아가 영상의 대기 대신 분홍 시간 기술을 추가 사용했다. 정확 재현 실패 요인으로 기록."
+    },
+    {
+      "turn": 2,
+      "actionsKo": "롤랑 (-1,3), 네미아 (0,4), 프레시아 (0,3) 이동 후 대기. 지형·시간 추가 사용 생략.",
+      "differenceKo": null
+    },
+    {
+      "turn": 3,
+      "actionsKo": "네미아 (-3,4) 조준→(-5,4) 녹색 공격 (-7,4). 롤랑 (-3,4) 주형→(-4,4) 징벌 (-6,5). 프레시아 (-2,4) 대기 후 시간 기술.",
+      "differenceKo": "네미아는 이번 공격으로 즉시 처치했으나 영상에서는 적이 살아 있다가 반격에 처치됨."
+    },
+    {
+      "turn": 4,
+      "actionsKo": "네미아 (-5,4)에서 (-3,4) 일반 공격, 물 지형 중심 (-6,4). 롤랑 (-4,5)에서 (-2,5) 일반 공격. 프레시아 (-2,4)에서 (-3,4) 일반 공격 후 시간 생략.",
+      "differenceKo": "프레시아 공격 뒤 적 1663 HP 생존. 적 턴 반격으로 남은 두 적 처치. 프레시아 HP 4188 생존; 영상보다 낮음."
+    },
+    {
+      "turn": 5,
+      "actionsKo": "롤랑 (-3,7), 금색 범위 공격을 아래로 사용. 네미아 (-9,3) 상자에서 대기해 보물 발견. 프레시아 (-2,6) 대기, 시간 생략.",
+      "differenceKo": "보물 발견 대화와 성마권 2개 획득을 화면으로 확인. 스테이지 상세 1/1 사후 감사는 아직 없음."
+    },
+    {
+      "turn": 6,
+      "actionsKo": "롤랑 (-2,8)에서 징벌 (-2,12) 처치. 네미아 (-6,5) 조준→(-4,5) 대기, 물 지형 생략. 프레시아 (-2,5) 대기, 시간 생략.",
+      "differenceKo": "두 번째 4기 증원. 네미아의 무작위 버프·회복량이 영상과 다름. 카메라 전용 네이티브 계획은 게임 창 미탐지로 입력 전 실패."
+    },
+    {
+      "turn": 7,
+      "actionsKo": "네미아 (-3,6) 일반 공격 (-3,8) 처치, 물 지형 중심 (-3,8). 롤랑 (-3,10) 주형→(-5,10) 징벌 (-7,10) 처치. 프레시아 (-2,8) 대기.",
+      "differenceKo": "네미아 공격력 1960으로 영상 1670과 다름. 잘못 미리 선택한 (-3,7)은 공격 확정 전에 (-3,6)으로 수정."
+    },
+    {
+      "turn": 8,
+      "actionsKo": "네미아 (-4,10) 녹색 공격 (-6,10) 처치. 롤랑 (-3,11)에서 금색 범위 공격을 오른쪽 (1,11) 방향에 사용. 프레시아 (-3,9) 대기.",
+      "differenceKo": "적 행동 후 롤랑 HP 10298. 영상 11118과 차이."
+    },
+    {
+      "turn": 9,
+      "actionsKo": "네미아 (-1,10) 조준→(0,10), 오른쪽 바깥 적 (2,10) 일반 공격. 이후 물 지형 생략 대기. 롤랑·프레시아는 아직 행동하지 않음.",
+      "differenceKo": "방어 파괴는 발동했지만 치명타 미발동. 적 3283/15083 HP 생존. 영상은 치명타 15320으로 처치. 출구 이동 중단."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "data/langrisser/verification/main-1-4-2026-09-27/treasure-found.png",
+      "sha256": "9ecf4cc112ca8cce23722d9dd9f72500d658afee51eaabf76993c2f3652396e9"
+    },
+    {
+      "path": "data/langrisser/verification/main-1-4-2026-09-27/turn-9-enemy-survived.png",
+      "sha256": "0824e8d0d46b1846f05998313b780d3d9d3c6e3dc4b0a8898bec1649e6f88073"
+    },
+    {
+      "path": "data/langrisser/verification/main-1-4-2026-09-27/turn-9-ocr.json",
+      "sha256": "3865e960a54ed49d67452ef83b0e780fe6b0131d56ee52f0ead9c9b0cef5efd3"
+    }
+  ],
+  "nextRequired": "비치명타 발생 시 출처에서 확인한 후속 행동 확보 또는 확률에 의존하지 않는 다른 공략 검토. 보완 후 처음부터 재검증, 종료 상세 화면 2/2·1/1 감사, 독립 프로그램 반복 완주 필요.",
+  "softwareVerification": {
+    "testsPassed": 25,
+    "command": "node --test test/langrisser-guide-policy.test.mjs test/langrisser.test.mjs test/langrisser-completion.test.mjs",
+    "liveCliHoldCheck": "GUIDE_INPUT_HELD before bridge access"
+  }
+}

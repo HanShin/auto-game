@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-27T08:30:17.864191+00:00",
+  "change": "offline-recorded-play",
+  "unitAndRegressionTests": {
+    "command": "npm test",
+    "passed": 45,
+    "failed": 0
+  },
+  "cliChecks": [
+    {
+      "command": "compile documented menu record",
+      "result": "compiled 2 steps"
+    },
+    {
+      "command": "run compiled menu plan without --live",
+      "result": "validated-only"
+    },
+    {
+      "command": "run incomplete main-1-4 record --live",
+      "result": "PLAYBOOK_NOT_READY before bridge activation"
+    },
+    {
+      "command": "run old camera plan --live",
+      "result": "RECORDED_PLAN_REQUIRED before bridge activation"
+    }
+  ],
+  "documentation": {
+    "stages": 118,
+    "stagesWithOrderedInstructions": 5,
+    "main14Instructions": 32,
+    "runnableBattleStages": 0,
+    "menuPlanPrepared": true
+  },
+  "nativeAppRebuilt": false,
+  "liveGameInputsThisChange": 0,
+  "standaloneAutomaticClearVerified": false,
+  "resumeFlow": "saved question -> user answer -> resume-plan.json or CLI resume -> observe only before advancing"
+}

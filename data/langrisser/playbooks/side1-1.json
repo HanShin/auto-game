@@ -1,0 +1,51 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "side1-1-record",
+  "stageId": "side1-1",
+  "title": "失われた風景",
+  "summaryKo": "원문은 완전 자동 전투가 실패할 수 있다고 경고한다. 구체적 수동 전투 순서는 없다.",
+  "turnLimit": 15,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 0,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E9%BB%8E%E6%98%8E%E3%81%AE%E5%BA%8F%E7%AB%A01",
+      "sha256": "86f29e6b205b2d17bca0c549509d42e448896381cc32ebba2d9aab5f1bed4849"
+    }
+  ],
+  "instructions": [],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

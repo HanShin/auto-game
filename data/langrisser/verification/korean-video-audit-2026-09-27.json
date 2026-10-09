@@ -1,0 +1,36 @@
+{
+  "auditedAtLocal": "2026-09-27 Asia/Seoul",
+  "targetStageId": "main-1-8",
+  "targetTitleKo": "마물에겐 죽음뿐",
+  "request": "Find and analyze a Korean walkthrough video for the exact main-1-8 mission.",
+  "playlist": {
+    "title": "랑그릿사 문 너머의 저편",
+    "url": "https://www.youtube.com/playlist?list=PLx_XFWHKiINVN9Uw41rpZpF8hYVZB3HPF",
+    "advertisedVideoCount": 114,
+    "reviewScope": "playlist index and candidate search results; no exact main-1-8 video identified"
+  },
+  "candidates": [
+    {
+      "url": "https://www.youtube.com/watch?v=NulaDzJ1Gd4",
+      "title": "랑그릿사 문 너머의 저편 토이워의 메아리 평원 챕터1 4-1. 마물에겐 죽음뿐 클리어영상",
+      "status": "excluded-user-confirmed-different-mission",
+      "note": "Same Korean title, but labeled 4-1; user confirmed its mission is different from target main-1-8. Do not use its actions."
+    }
+  ],
+  "result": {
+    "exactKoreanVideoFound": false,
+    "videoActionsAnalyzed": false,
+    "reason": "No Korean video verified as the exact main-1-8 encounter. Analyzing the same-title 4-1 video would repeat the prior stage mismatch.",
+    "availableAlternative": {
+      "type": "Japanese turn-by-turn guide",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-8",
+      "storedActions": 21,
+      "scope": "two artillery phases, turns 1-8",
+      "limitations": [
+        "Korean video validation remains unavailable.",
+        "Korean screen and coordinate mapping is unverified.",
+        "The prior manual test diverged on turn 3: a basic attack dealt 6216 to a 13664-HP harpy, leaving it alive, so the stored 'kill' expectation needs source/state reconciliation before retry."
+      ]
+    }
+  }
+}

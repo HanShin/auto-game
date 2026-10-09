@@ -1,0 +1,32 @@
+{
+  "stageKo": "궁지 배회",
+  "mode": "manual-cua-reference-only",
+  "source": "https://www.youtube.com/watch?v=gXDwqbyJDck",
+  "coordinateSystem": {
+    "origin": "actor tile immediately before each listed move or skill",
+    "xPositive": "right",
+    "yPositive": "down",
+    "cameraIndependent": true,
+    "tilePixelSizeMacApprox": 91,
+    "tilePixelSizeVideoApprox": 61
+  },
+  "actions": [
+    {"id":"T1-01","turn":1,"actor":"이리스","move":[4,1],"skill":"새벽의 징벌","target":"self","sourceSeconds":[4,11],"reproduced":true},
+    {"id":"T1-02","turn":1,"actor":"이리스","skill":"평온한 밤의 선서","targetAnchor":"기갑 적","targetOffsetsInOrder":[[-1,-2],[1,0]],"confirmCount":2,"sourceSeconds":[12,19],"reproduced":true,"note":"첫 칸 선택·확정 뒤 반드시 둘째 칸을 선택·확정. 아홉 번째 출격에서 두 칸 입력 후 2턴 레인폴즈 HP 11484/14349, 병사 8036/14160으로 영상과 일치"},
+    {"id":"T1-03","turn":1,"actor":"레인폴즈","move":[3,0],"skill":"크림조의 흩날리는 꽃","target":"self","sourceSeconds":[20,29],"reproduced":true},
+    {"id":"T1-04","turn":1,"actor":"비라쥬","move":[3,0],"skill":"하단 파란 투척 기술","targetOffset":[3,0],"targetAnchor":"루크레치아","expectedEffect":"루크레치아를 비라쥬 쪽으로 두 칸 당김","sourceSeconds":[30,37],"reproduced":true,"note":"일곱 번째·여덟 번째 출격에서 당기기 확인"},
+    {"id":"T1-05","turn":1,"actor":"비라쥬","move":[2,0],"attackTargetOffset":[-1,0],"attackTarget":"루크레치아","sourceSeconds":[38,41],"reproduced":true,"note":"여덟 번째 출격에서 위치·공격 방향 확인. 영상은 치명타 13311, 실전은 피해량이 달라 2턴 체력·상태 차이 발생"},
+    {"id":"T2-01","turn":2,"actor":"레인폴즈","move":[0,0],"skill":"달의 암면","targetPattern":"레인폴즈 바로 오른쪽 빈칸","sourceTargetOffset":[1,0],"ninthAttemptTargetOffset":[1,1],"tenthAttemptTargetOffset":[1,0],"sourceSeconds":[63,76],"reproduced":true,"note":"아홉 번째 출격에서는 +1,0이 점유된 것으로 보여 +1,+1에 시전. 열 번째 출격은 현재 레인폴즈 칸을 재확인해 +1,0 빈칸에 시전했고 적 강조 범위를 확인했다"},
+    {"id":"T2-02","turn":2,"actor":"이리스","move":[1,-4],"temporaryMovePreview":[2,-3],"destination":"첫 수호의 열쇠 칸","skill":"일반 공격","attackTarget":"서큐버스","sourceSeconds":[77,91],"reproduced":false,"blockReason":"10번째 출격에서 공략의 +2,-3 칸은 적 점유, +1,-4 첫 열쇠는 이동 범위 밖. 열쇠 클릭은 설명만 열림. 적 배치가 영상과 달라 재기동","note":"1:21의 +2,-3은 이동 확정이 아닌 미리보기. 1:24 실제 이리스는 첫 열쇠 칸, 1:28 전투 상대 이름은 서큐버스. 전투 상대 이름 확인 전 확정 금지"},
+    {"id":"T2-03","turn":2,"actor":"이리스","move":[3,-1],"skill":"주황 대상 기술","targetOffset":[0,-2],"attackTarget":"듀라한","afterAttackMove":[0,1],"sourceSeconds":[92,99],"reproduced":false,"note":"네 번째 출격에서 듀라한 격퇴는 확인했으나 후속 이동을 제자리 대기로 잘못 입력; 영상에서는 남쪽 한 칸"},
+    {"id":"T2-04","turn":2,"actor":"이리스","skill":"평온한 밤의 선서","targetOffsetApprox":[0,5],"sourceSeconds":[100,107],"reproduced":false,"blockReason":"영상에서 카메라 이동 뒤 고른 남쪽 대상 칸이 현재 맥 게임 화면 아래에 있음. 네이티브 드래그/스크롤로 화면 이동 실패. 목표 좌표 재검증 필요"}
+  ],
+  "guard": {
+    "beforeAction": ["actor identity", "start tile", "destination tile selectable", "skill icon/name", "target tile", "expected enemy identities in area"],
+    "onMismatch": "영상과 달라지면 재시작하여 이동 좌표, 일반 공격/기술 구분, 대상 칸, 확정 순서를 재검증한 뒤 재진행. 카메라 제어가 불가능한 경우에만 사용자에게 지도 이동 요청",
+    "crystalsAllowed": false,
+    "retryOnDefeat": true,
+    "achievementsAndChestMayBeDeferred": true
+  },
+  "currentState": "Tenth sortie restarted from turn 2 because enemy occupied the guide's Iris path and first key was outside movement range. Eleventh sortie at battle preparation. No crystals used. Recalculate from named visible units before each action."
+}

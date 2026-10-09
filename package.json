@@ -1,0 +1,22 @@
+{
+  "name": "auto-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Langrisser manual playbooks and Star Rail iPad device tools",
+  "engines": {
+    "node": "^20.19.0 || ^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/doctor.mjs",
+    "server": "node scripts/server.mjs",
+    "device": "node scripts/device.mjs",
+    "langrisser": "node scripts/langrisser.mjs",
+    "langrisser:check": "node scripts/portable-check.mjs"
+  },
+  "devDependencies": {
+    "appium": "3.7.0",
+    "appium-xcuitest-driver": "12.13.2"
+  }
+}

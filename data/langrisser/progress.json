@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "updatedAt": "2026-09-27T08:04:04.485785+00:00",
+  "assistedClears": [
+    {
+      "stageId": "main-1-4",
+      "turns": 8,
+      "achievementCount": 1,
+      "treasureCollected": false,
+      "evidence": ".runtime/langrisser/evidence/main-1-4-first-clear.png"
+    }
+  ],
+  "standaloneAutomaticClears": [],
+  "menuVerification": {
+    "status": "passed",
+    "steps": 2,
+    "run": ".runtime/langrisser/verify-061B5C7D-E3BF-43F3-B320-45F37351AFC0"
+  },
+  "nextStageId": "main-1-4",
+  "nextStageTitleKo": "섬의 손님",
+  "completionPolicy": {
+    "mode": "all-objectives",
+    "required": [
+      "clear",
+      "achievements",
+      "treasures"
+    ],
+    "unknownIsComplete": false,
+    "revisitIncomplete": true
+  },
+  "stageStates": {
+    "main-1-4": {
+      "stageId": "main-1-4",
+      "titleKo": "섬의 손님",
+      "observedAt": "2026-09-27T06:51:54.446Z",
+      "method": "two-frame-ocr",
+      "evidence": [
+        {
+          "path": ".runtime/langrisser/audit-main-1-4-1790491913644/frame-1.png",
+          "generation": 3,
+          "sha256": "f7236e404ca709e91cdb9687c558fe26e8837c837c8bb18019dece061f4a5b9f"
+        },
+        {
+          "path": ".runtime/langrisser/audit-main-1-4-1790491913644/frame-2.png",
+          "generation": 4,
+          "sha256": "22baa34ad7c0e046dbfa73dce506d37b731fec02f4f762cda6a802b80ce07705"
+        }
+      ],
+      "clear": true,
+      "achievements": {
+        "collected": 1,
+        "total": 2,
+        "confidence": 0.30000001192092896
+      },
+      "treasures": {
+        "collected": 0,
+        "total": 1,
+        "confidence": 0.5
+      },
+      "conflicts": []
+    }
+  },
+  "nextAction": "prepare-recorded-recovery",
+  "completionAuditVerification": {
+    "status": "passed",
+    "method": "standalone-app",
+    "run": ".runtime/langrisser/run-026F70B2-97D3-4DF7-AC73-36B5F4B2948E",
+    "result": "objectives-incomplete: achievements 1/2, treasures 0/1"
+  },
+  "permissionVerification": {
+    "screenRecording": true,
+    "accessibility": true,
+    "observedAt": "2026-09-27T06:50:09Z"
+  },
+  "executionMode": "offline-recorded-actions",
+  "activeBattle": {
+    "stageId": "main-1-4",
+    "turn": 9,
+    "auto": false,
+    "status": "paused-source-outcome-mismatch",
+    "observation": "data/langrisser/verification/main-1-4-2026-09-27/turn-9-enemy-survived.png",
+    "resumeRule": "현재 9턴에 대응하는 로컬 행동 기록과 화면 매핑이 준비된 뒤 재개. 실행 중 웹 공략 재검색은 하지 않음."
+  },
+  "latestSourceValidation": {
+    "status": "failed-validation-paused-in-battle",
+    "report": "data/langrisser/verification/main-1-4-2026-09-27/result.json",
+    "allObjectivesVerified": false,
+    "standaloneAutomaticClear": false
+  }
+}

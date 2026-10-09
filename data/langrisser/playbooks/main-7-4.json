@@ -1,0 +1,51 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-7-4-record",
+  "stageId": "main-7-4",
+  "title": "登頂",
+  "summaryKo": "엔야의 목적지 도착이 승리 조건. T2/3/4 시작에3/3/4기 증원. 이동 보조로 호위한다. 오른쪽 아래 두루마리 보물, 업적5턴.",
+  "turnLimit": 15,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "present",
+    "treasureDescription": "右下 巻物 (聖魔晶x100)"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A87-4",
+      "sha256": "d645599fa0a9f93576bb877fef11f556775eff3442704267e40232bdbc23496c"
+    }
+  ],
+  "instructions": [],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

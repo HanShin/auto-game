@@ -1,0 +1,51 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "side3-2-record",
+  "stageId": "side3-2",
+  "title": "鮮血の王",
+  "summaryKo": "님프 왼쪽4칸 균열 보물,업적3턴. 상세 전투 해법 없음.",
+  "turnLimit": null,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 2,
+    "treasureAvailability": "present",
+    "treasureDescription": "ニンフの左4 床の割れ目 (エンチャントセット・上級x3)"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E8%BF%BD%E6%86%B6%E3%81%AE%E5%9F%BA%E7%82%B92",
+      "sha256": "84caacca2e600f17d532611948fec643ea5cd2f0a1c54307b5651237526cf60b"
+    }
+  ],
+  "instructions": [],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

@@ -1,0 +1,51 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-8-9-record",
+  "stageId": "main-8-9",
+  "title": "理性の再構築",
+  "summaryKo": "이성10으로 시작, 이동력 소비만큼 감소,0이면HP300% 고정피해. 시계는 턴당 둘에게4씩 보충하고 이동 소비0 지형을 만든다. 12~20 지력·방어50%,6~11 공격·마방50%,1~5 공격·지력120%. 버프 구간보다 생존 잔량을 우선 확인한다.",
+  "turnLimit": 15,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A88-9",
+      "sha256": "7c5eceab8835e929f34a06772e54d9927978b3385bf8a17f4d66e275f7fc4355"
+    }
+  ],
+  "instructions": [],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

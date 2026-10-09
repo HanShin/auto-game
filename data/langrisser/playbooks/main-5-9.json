@@ -1,0 +1,79 @@
+{
+  "format": "langrisser-playbook",
+  "version": 1,
+  "id": "main-5-9-record",
+  "stageId": "main-5-9",
+  "title": "一方向の石",
+  "summaryKo": "모든 칸을 한 번씩 지나 바닥을 칠하면 출구가 열린다. 이동 거리만큼 체력을 소비하며 재행동한다. 3개 파동의 방향 경로는 puzzle-routes.json에 저장.",
+  "turnLimit": 10,
+  "objectives": {
+    "mode": "all-objectives",
+    "achievementCount": 3,
+    "treasureAvailability": "none",
+    "treasureDescription": "なし"
+  },
+  "sources": [
+    {
+      "id": "wiki",
+      "label": "일본 위키",
+      "url": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A85-9",
+      "sha256": "332dc3dd500186c8e8fd0fd7bca1215843bcf37a62475db41311d9a13a8bd502"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "wave-1",
+      "phase": 1,
+      "actionKo": "bottom-left-edge → below-icicle → goal",
+      "sourceId": "wiki",
+      "section": "퍼즐 1단계",
+      "verified": true,
+      "expectedKo": "기록된 행동력 12, 화면 매핑 필요"
+    },
+    {
+      "id": "wave-2",
+      "phase": 2,
+      "actionKo": "L4 → U4 R1 → D3 R1 → U2 R1 U1 R1 → D3 → R1 → D1 R2 → U1 L1 U1 L1 → U2 R1 → D1 R1 → U1 R1 → D3 → goal",
+      "sourceId": "wiki",
+      "section": "퍼즐 2단계",
+      "verified": true,
+      "expectedKo": "기록된 행동력 43, 화면 매핑 필요"
+    },
+    {
+      "id": "wave-3",
+      "phase": 3,
+      "actionKo": "D1 R1 → U1 R1 → D6 L2 → L3 → U1 R1 U1 R1 → D1 R2 U1 → U1 L4 → U1 R1 U1 R1 → D1 R2 teleport → U6 R2 → R1 → goal",
+      "sourceId": "wiki",
+      "section": "퍼즐 3단계",
+      "verified": true,
+      "expectedKo": "기록된 행동력 47, 화면 매핑 필요"
+    }
+  ],
+  "exceptions": [
+    {
+      "whenKo": "잠깐의 화면 전환·인식 흔들림",
+      "thenKo": "새 화면을 정해진 시간 동안 재확인. 기본 입력 전 12초, 입력 후 20초. 같은 결과가 서로 다른 두 캡처에서 확인되면 계속 진행."
+    },
+    {
+      "whenKo": "기록된 예외 결과와 일치",
+      "thenKo": "해당 분기를 자동 실행. 피해량 숫자가 달라도 다음 행동에 필요한 조건이 일치하면 계속 진행."
+    },
+    {
+      "whenKo": "대응 조건 없음·여러 분기 동시 일치·재시도 한도 소진",
+      "thenKo": "입력 중단. 현재 화면·직전 단계·기대 결과를 저장하고 사용자에게 요청. 해당 행동의 공략 사이트를 한 번 열고 영상 시점도 표시."
+    },
+    {
+      "whenKo": "입력 후 결과 불명",
+      "thenKo": "같은 클릭을 반복하지 않음. 사용자 응답 후에도 결과 화면 관찰부터 재개."
+    }
+  ],
+  "review": {
+    "sequenceReviewed": false,
+    "screenMappingVerified": false,
+    "recipeSha256": null
+  },
+  "execution": {
+    "recipe": null
+  },
+  "gaps": []
+}

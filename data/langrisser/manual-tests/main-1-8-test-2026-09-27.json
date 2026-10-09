@@ -1,0 +1,69 @@
+{
+  "stageId": "main-1-8",
+  "sourceUrl": "https://langrisser.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%88%E3%81%AE%E5%BD%BC%E6%96%B9/%E6%9C%AC%E7%B7%A81-8",
+  "status": "needs-user",
+  "startedAtLocal": "2026-09-27 Asia/Seoul",
+  "entry": {
+    "guideParticipantCount": 0,
+    "friendlyUnits": "2 artillery cannons",
+    "deployedHeroes": 0,
+    "match": "deployment screen and initial battlefield matched the guide"
+  },
+  "verifiedActions": [
+    {
+      "turn": 1,
+      "actor": "left artillery",
+      "action": "energy charge",
+      "result": "completed; charge marker shown"
+    },
+    {
+      "turn": 1,
+      "actor": "right artillery",
+      "action": "single-target skill",
+      "target": "only in-range orc",
+      "result": "7968 damage"
+    },
+    {
+      "turn": 2,
+      "actor": "left artillery",
+      "action": "area skill south",
+      "result": "completed; firepower suppression effect"
+    },
+    {
+      "turn": 2,
+      "actor": "right artillery",
+      "action": "area skill south",
+      "result": "completed; firepower suppression effect"
+    }
+  ],
+  "divergence": {
+    "turn": 3,
+    "recordedInstruction": "kill two harpies near the green tiles with basic attacks; preserve single-target skills",
+    "attemptedActor": "left artillery",
+    "attemptedTarget": "harpy showing 13664/20722 HP (66%)",
+    "action": "basic attack",
+    "result": "6216 damage; target survived with 7448/20722 HP",
+    "reasonToPause": "The attempted target did not satisfy the recorded kill result. The guide does not identify harpy hexes, and the next target/action should not be guessed."
+  },
+  "userQuestion": "Should I continue this battle by documenting and following a recovery branch from this point, or stop this attempt, add target/HP conditions to the playbook, and retry?",
+  "notes": [
+    "Game is paused after the attack animation at turn 3; no further actions were issued.",
+    "The original Japanese wiki page was opened for the user."
+  ],
+  "retryAttempt": {
+    "state": "paused at turn 3 before input",
+    "sourceCheck": "no target coordinates or stage-specific video found; Japanese wiki page remains open at its turn-order section",
+    "nearGreenHarpies": [
+      {
+        "observedHp": "13664/20722",
+        "attackPreview": "left artillery can target",
+        "basicAttackOutcomeFromPriorAttempt": "6216 damage, survived with 7448/20722"
+      },
+      {
+        "observedHp": "13664/20722",
+        "attackPreview": "left artillery can target"
+      }
+    ],
+    "decision": "paused before repeating a basic attack because the guide result cannot be confirmed from this state"
+  }
+}

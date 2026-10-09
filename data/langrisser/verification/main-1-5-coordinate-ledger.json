@@ -1,0 +1,222 @@
+{
+  "stageId": "main-1-5",
+  "mode": "manual-cua-reference-only",
+  "coordinateSystem": {
+    "origin": "Roland's battle-start tile",
+    "originColumn": 11,
+    "originRow": 11,
+    "columnDirection": "right",
+    "rowDirection": "down",
+    "cameraIndependent": true,
+    "mapBoundsVerified": false
+  },
+  "actors": [
+    {
+      "id": "ally-1",
+      "nameKo": "롤랑",
+      "start": "C11-R11"
+    },
+    {
+      "id": "ally-2",
+      "nameKo": "프레시아",
+      "start": "C11-R10"
+    },
+    {
+      "id": "ally-3",
+      "nameKo": "네미아",
+      "start": "C10-R11"
+    }
+  ],
+  "previouslyReproducedTurn1": [
+    {
+      "id": "T1-01",
+      "actor": "ally-2",
+      "from": "C11-R10",
+      "to": "C09-R11",
+      "after": "Blue support skill on ally-3; finish follow-up with wait"
+    },
+    {
+      "id": "T1-02",
+      "actor": "ally-1",
+      "from": "C11-R11",
+      "to": "C09-R12",
+      "after": "Use 주형 on self"
+    },
+    {
+      "id": "T1-03",
+      "actor": "ally-1",
+      "from": "C09-R12",
+      "to": "C08-R13",
+      "after": "Wait"
+    },
+    {
+      "id": "T1-04",
+      "actor": "ally-3",
+      "from": "C10-R11",
+      "to": "C08-R11",
+      "after": "Wait"
+    },
+    {
+      "id": "T1-05",
+      "actor": "ally-3",
+      "at": "C08-R11",
+      "skillTarget": "C12-R11",
+      "skillKo": "고고한 섬의 파도"
+    }
+  ],
+  "observedCompletion": {
+    "chest": "1/1",
+    "achievements": "2/2",
+    "newClearVerified": true,
+    "perfectVerified": true,
+    "firstClearRewardsClaimed": true,
+    "dateLocal": "2026-09-27",
+    "proof": "data/langrisser/verification/main-1-5-perfect-2026-09-27.png"
+  },
+  "mustVerifyBeforeConfirming": [
+    "actor identity",
+    "fixed source tile",
+    "fixed destination tile",
+    "skill and target",
+    "displayed path and final position"
+  ],
+  "offscreenPolicy": "Reveal and identify the required tile; never substitute a closer visible tile",
+  "sourceVideo": "https://www.youtube.com/watch?v=AKzMhlpyfaA",
+  "verifiedRoute": [
+    {
+      "turn": 1,
+      "actor": "ally-2",
+      "from": "C11-R10",
+      "to": "C09-R11",
+      "afterKo": "네미아에게 파란 지원 기술 사용·확정 → 시침 후 대기",
+      "sourceKo": "첫 턴 실전 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 1,
+      "actor": "ally-1",
+      "from": "C11-R11",
+      "to": "C09-R12",
+      "afterKo": "주형을 자신에게 사용·확정",
+      "sourceKo": "첫 턴 실전 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 1,
+      "actor": "ally-1",
+      "from": "C09-R12",
+      "to": "C08-R13",
+      "afterKo": "추가 이동 후 대기",
+      "sourceKo": "첫 턴 실전 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 1,
+      "actor": "ally-3",
+      "from": "C10-R11",
+      "to": "C08-R11",
+      "afterKo": "대기 → 고고한 섬의 파도, 대상 C12-R11",
+      "sourceKo": "첫 턴 실전 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 2,
+      "actor": "ally-2",
+      "from": "C09-R11",
+      "to": "C09-R06",
+      "afterKo": "대기 → 시침 후 다시 대기",
+      "sourceKo": "영상 1:07–1:10",
+      "reproduced": true
+    },
+    {
+      "turn": 2,
+      "actor": "ally-1",
+      "from": "C08-R13",
+      "to": "C06-R14",
+      "afterKo": "대기",
+      "sourceKo": "이전 영상 대조 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 2,
+      "actor": "ally-3",
+      "from": "C08-R11",
+      "to": "C07-R14",
+      "afterKo": "대기; 웨이브 서프 발동",
+      "sourceKo": "이전 영상 대조 기록",
+      "reproduced": true
+    },
+    {
+      "turn": 3,
+      "actor": "ally-1",
+      "from": "C06-R14",
+      "to": "C09-R14",
+      "afterKo": "주형을 자신에게 사용·확정",
+      "sourceKo": "영상 1:25–1:30",
+      "reproduced": true
+    },
+    {
+      "turn": 3,
+      "actor": "ally-1",
+      "from": "C09-R14",
+      "to": "C11-R14",
+      "afterKo": "추가 이동 후 대기",
+      "sourceKo": "영상 1:31–1:32",
+      "reproduced": true
+    },
+    {
+      "turn": 3,
+      "actor": "ally-2",
+      "from": "C09-R06",
+      "to": "C09-R11",
+      "afterKo": "대기 → 시침 → 분홍색 시간 정지를 자신에게 사용",
+      "sourceKo": "영상 1:35–1:40",
+      "reproduced": true
+    },
+    {
+      "turn": 3,
+      "actor": "ally-3",
+      "from": "C07-R14",
+      "to": "C10-R13",
+      "afterKo": "대기 → 고고한 섬의 파도, 대상 C11-R13",
+      "sourceKo": "영상 1:42–1:49",
+      "reproduced": true
+    },
+    {
+      "turn": 4,
+      "actor": "ally-1",
+      "from": "C11-R14",
+      "to": "C15-R14",
+      "afterKo": "꽃 칸에서 대기 → 보물 발견 및 보상 수령",
+      "sourceKo": "영상 2:02–2:07",
+      "reproduced": true
+    },
+    {
+      "turn": 4,
+      "actor": "ally-3",
+      "from": "C10-R13",
+      "to": "C08-R14",
+      "afterKo": "대기",
+      "sourceKo": "영상 2:09–2:11",
+      "reproduced": true
+    },
+    {
+      "turn": 4,
+      "actor": "ally-2",
+      "from": "C09-R11",
+      "to": "C08-R13",
+      "afterKo": "대기 → 시침 후 다시 대기",
+      "sourceKo": "영상 2:11–2:15",
+      "reproduced": true
+    }
+  ],
+  "assistance": {
+    "userPannedMapOnce": true,
+    "when": "T3 before selecting Freesia",
+    "nativeBlankMapDragResolved": false
+  },
+  "achievementConditionsKo": [
+    "안드리올 체력 60% 미만으로 승리",
+    "프레시아가 피해를 받지 않음"
+  ]
+}
