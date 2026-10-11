@@ -1,28 +1,58 @@
 {
   "version": 1,
-  "verifiedOn": "2026-10-09",
-  "platform": "win32",
-  "inputMode": "computer-use-manual",
-  "userScope": "이번 미션까지만 완료하고 중지",
+  "verifiedOn": "2026-10-10",
+  "platform": "ios-ipad",
+  "inputMode": "manual-single-input",
+  "userScope": "아이패드 문 너머 저편 및 다시 만든 운명 미완료 미션 클리어·모든 업적·보물",
   "stopped": true,
   "lastCompleted": {
     "chapter": "바다 섬의 장Ⅰ",
-    "number": "02",
-    "titleKo": "폭풍의 우연",
-    "turn": 3,
-    "achievements": { "completed": 2, "total": 2 },
-    "treasures": { "completed": 1, "total": 1 },
+    "number": "03-1",
+    "titleKo": "공의 여행",
+    "turnCount": 1,
+    "achievements": {
+      "completed": 3,
+      "total": 3
+    },
+    "treasures": {
+      "completed": 0,
+      "total": 0
+    },
     "firstRewardReceived": true,
-    "playbook": "docs/langrisser-playbooks/sea1-storm-encounter-grid-2026-10-09.md",
-    "verification": "data/langrisser/verification/pc-2026-10-08.md",
-    "screenshot": "data/langrisser/verification/pc-2026-10-09-storm-complete.jpg"
+    "playbook": "docs/langrisser-playbooks/sea1-ball-journey-grid-2026-10-10.md",
+    "verification": "data/langrisser/verification/ipad-2026-10-09/session.md",
+    "screenshot": "data/langrisser/verification/ipad-2026-10-09/sea1-03branch-perfect-detail.jpg"
   },
   "verifiedChapters": [
-    { "titleKo": "평원Ⅰ", "percent": 100, "treasures": "6/6", "achievements": "21/21" },
-    { "titleKo": "평원Ⅱ", "percent": 100, "treasures": "6/6", "achievements": "23/23" },
-    { "titleKo": "평원Ⅲ", "percent": 100, "treasures": "7/7", "achievements": "24/24" }
+    {
+      "titleKo": "평원Ⅰ",
+      "percent": 100,
+      "treasures": "6/6",
+      "achievements": "21/21"
+    },
+    {
+      "titleKo": "평원Ⅱ",
+      "percent": 100,
+      "treasures": "6/6",
+      "achievements": "23/23"
+    },
+    {
+      "titleKo": "평원Ⅲ",
+      "percent": 100,
+      "treasures": "7/7",
+      "achievements": "24/24"
+    }
   ],
-  "lastObservedResources": { "gold": 20832138, "crystals": 1102, "stamina": "162/170" },
-  "sessionTotals": { "sorties": 17, "restarts": 6, "crystalsSpent": 0 },
-  "resumeRequires": "사용자 새 진행 요청, 해당 PC의 Computer Use 입력 검증, 현재 게임 상세 카운터 재확인"
+  "lastObservedResources": {
+    "gold": 21347879,
+    "crystals": 2212,
+    "stamina": "163/170"
+  },
+  "sessionTotals": {
+    "sorties": 15,
+    "restarts": 7,
+    "crystalsSpent": 0
+  },
+  "resumeRequires": "아이패드 잠금 해제·게임 표시 뒤 바다 섬Ⅰ02-1 연회 결투0/3 진행. 11턴 전체 실행표 sea1-banquet-duel-grid-2026-10-10.md 준비 완료, 실제 기술 이름 확인 후 출격. 바다Ⅱ·Ⅲ 및 다시 만든 운명 실제 상태 확인 필요.",
+  "stopReason": "아이패드 잠금: 기존 화면 제어 연결은 주소 갱신으로 복구했으나 게임 전면 표시가 Locked로 거부됨. 사용자 직접 잠금 해제 대기."
 }
