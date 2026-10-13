@@ -1,0 +1,79 @@
+{
+  "updatedOn": "2026-10-13",
+  "observedOn": "2026-10-12",
+  "game": "랑그릿사",
+  "platform": "ios-ipad",
+  "userScope": "아이패드 문 너머 저편 및 다시 만든 운명 미완료 미션 클리어·업적·보물",
+  "scopeCorrection": "아이패드에서 다시 계속 진행해줘는 랑그릿사를 의미한다는 사용자 정정. 스타레일 진행 중단.",
+  "chapterObserved": {
+    "titleKo": "바다 섬의 장Ⅰ",
+    "percent": 100,
+    "treasures": "6/6",
+    "achievements": "24/24",
+    "completionByAgentThisSession": false
+  },
+  "nextChapterObserved": {
+    "titleKo": "바다 섬의 장Ⅱ",
+    "percent": 27,
+    "treasures": "2/6",
+    "achievements": "5/27",
+    "list": [
+      {
+        "number": "01",
+        "titleKo": "암류",
+        "state": "PERFECT"
+      },
+      {
+        "number": "02",
+        "titleKo": "부서진 파도",
+        "state": "PERFECT",
+        "achievements": "2/2"
+      },
+      {
+        "number": "03",
+        "titleKo": "기원의 호수",
+        "state": "PERFECT",
+        "achievements": "3/3"
+      },
+      {
+        "number": "03-1",
+        "titleKo": "미확인",
+        "achievements": "0/3"
+      },
+      {
+        "number": "04",
+        "titleKo": "바다에서 시작된 폭풍",
+        "achievements": "0/2"
+      }
+    ]
+  },
+  "currentMission": {
+    "number": "04",
+    "titleKo": "바다에서 시작된 폭풍",
+    "state": "전투 준비 화면, 공격 시작 전",
+    "victoryCondition": "모든 적 격퇴",
+    "achievements": {
+      "completed": 0,
+      "total": 2,
+      "goals": [
+        "아군 전원 생존",
+        "6턴 안에 클리어"
+      ]
+    },
+    "treasures": {
+      "completed": 0,
+      "total": 1
+    },
+    "source": "https://www.youtube.com/watch?v=yL7X54J9zUE",
+    "sourceMutedVerified": true,
+    "sourceMatch": "한국어 제목·해변 지도·4/4 편성·총전력39754가 준비 화면과 일치",
+    "sourceReview": "영상 시작 0:00~0:14 일부만 검토. 전 턴 실행표 미완성. 검증 전 전투 입력 없음."
+  },
+  "crystalsSpent": 0,
+  "lastObservedResources": {
+    "gold": 22924345,
+    "crystals": 3449,
+    "stamina": "163/170"
+  },
+  "remaining": "공략 승리까지 모든 턴을 전사한 뒤 바다 섬Ⅱ04 진행. 이후 미완료 목록과 다시 만든 운명 실제 상태 확인 필요."
+}
